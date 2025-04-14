@@ -30,12 +30,13 @@ class CocktailAPIService {
         }
     }
     
-    // Common JSONDecoder
+    // Common JSONDecoder and URLSession
     private let jsonDecoder = JSONDecoder()
     private let urlSession: URLSession = {
+        // Enlarged timeout interval due to first server response that can take up to 60s
         var config = URLSessionConfiguration.default
-        config.timeoutIntervalForRequest = 300
-        config.timeoutIntervalForResource = 300
+        config.timeoutIntervalForRequest = 120
+        config.timeoutIntervalForResource = 120
         
         return URLSession(configuration: config)
     }()
@@ -50,6 +51,42 @@ class CocktailAPIService {
         let cocktails = try jsonDecoder.decode([Cocktail].self, from: data)
         
         return cocktails
+    }
+    
+    func fetchCocktails(by name: String) async throws -> [Cocktail] {
+        guard let url = URL(string: "https://cocktail-api-84q3.onrender.com/recipes?name=\(name)") else {
+            throw URLError(.badURL)
+        }
+        
+        let (data, response) = try await urlSession.data(from: url)
+        try validate(response)
+        let cocktails = try jsonDecoder.decode([Cocktail].self, from: data)
+        
+        return cocktails
+    }
+    
+    func fetchCocktails(with ingredient: String) async throws -> [Cocktail] {
+        guard let url = URL(string: "https://cocktail-api-84q3.onrender.com/recipes?ingredient=\(ingredient)") else {
+            throw URLError(.badURL)
+        }
+        
+        let (data, response) = try await urlSession.data(from: url)
+        try validate(response)
+        let cocktails = try jsonDecoder.decode([Cocktail].self, from: data)
+        
+        return cocktails
+    }
+    
+    func fetchAllIngredients() async throws -> [String: IngredientAttributes] {
+        guard let url = URL(string: "https://cocktail-api-84q3.onrender.com/ingredients") else {
+            throw URLError(.badURL)
+        }
+        
+        let (data, response) = try await urlSession.data(from: url)
+        try validate(response)
+        let ingredients = try jsonDecoder.decode([String: IngredientAttributes].self, from: data)
+        
+        return ingredients
     }
     
     private func validate(_ response: URLResponse) throws {

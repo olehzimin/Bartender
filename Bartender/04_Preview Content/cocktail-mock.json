@@ -1,0 +1,36 @@
+{
+    "name": "Bloody Mary",
+    "abv": 12,
+    "flavor": [
+        "sour",
+        "bitter"
+    ],
+    "glass": "highball",
+    "category": "Longdrink",
+    "ingredients": [
+        {
+            "amount": 4.5,
+            "unit": "cl",
+            "name": "Vodka"
+        },
+        {
+            "name": "Tomato juice",
+            "amount": 9,
+            "unit": "cl"
+        },
+        {
+            "unit": "cl",
+            "name": "Lemon juice",
+            "amount": 1.5
+        }
+    ],
+    "special": [
+        "2 to 3 dashes of Worcestershire Sauce",
+        "Tabasco",
+        "Celery salt",
+        "Pepper"
+    ],
+    "garnish": "Celery and optionally lemon wedge",
+    "preparation": "Measure the vodka, tomato juice and lemon juice and pour it straight into highball glass. Add Worcestershire sauce, Tabasco and a pinch of celery salt and pepper. Stir gently and top up with fresh ice.",
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-bloody-mary-6695cda72fe0f.webp"
+}

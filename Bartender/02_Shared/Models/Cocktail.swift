@@ -8,7 +8,7 @@
 import Foundation
 
 struct Cocktail: Identifiable, Codable {
-    let id: UUID = UUID()
+    let id = UUID()
     let name: String
     let abv: Int
     let flavor: [String]
