@@ -1,34 +1,27 @@
 //
-//  HomeViewModel.swift
+//  StartupViewModel.swift
 //  Bartender
 //
-//  Created by Oleh Zimin on 14.04.2025.
+//  Created by Oleh Zimin on 16.04.2025.
 //
 
 import Foundation
 
 @Observable
-class HomeViewModel {
+class StartupViewModel {
     private let service = CocktailAPIService.shared
     private let cacheManager = CacheManager.shared
-    var cocktails: [Cocktail] {
-        
-        print("view changed")
-        return cacheManager.cachedCocktails
-    }
     
-    init() { }
+    private(set) var isShowingSplash = true
     
-    func reloadData() async {
+    func loadData() async {
         do {
             let cocktails = try await service.fetchAllCocktails()
             cacheManager.save(cocktails: cocktails)
         } catch {
             print(error.localizedDescription)
         }
-    }
-    
-    func eraseData() {
-        cacheManager.delete()
+        
+        isShowingSplash = false
     }
 }

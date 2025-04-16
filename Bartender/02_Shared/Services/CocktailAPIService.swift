@@ -30,6 +30,8 @@ class CocktailAPIService {
         }
     }
     
+    static let shared = CocktailAPIService()
+    
     // Common JSONDecoder and URLSession
     private let jsonDecoder = JSONDecoder()
     private let urlSession: URLSession = {
@@ -40,6 +42,8 @@ class CocktailAPIService {
         
         return URLSession(configuration: config)
     }()
+    
+    private init() { }
     
     func fetchAllCocktails() async throws -> [Cocktail] {
         guard let url = URL(string: "https://cocktail-api-84q3.onrender.com/recipes") else {

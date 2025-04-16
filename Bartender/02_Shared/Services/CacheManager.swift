@@ -15,8 +15,13 @@ class CacheManager {
     
     private init() { }
     
-    func fetchCocktails() {
-        
+    func save(cocktails: [Cocktail]) {
+        cachedCocktails = cocktails
+    }
+    
+    func delete() {
+        cachedCocktails = []
+        print("data deleted from cache")
     }
     
 }
