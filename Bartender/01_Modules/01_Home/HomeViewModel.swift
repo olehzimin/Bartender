@@ -5,30 +5,39 @@
 //  Created by Oleh Zimin on 14.04.2025.
 //
 
-import Foundation
+import SwiftUI
 
 @Observable
 class HomeViewModel {
-    private let service = CocktailAPIService.shared
-    private let cacheManager = CacheManager.shared
+    private let repositoryManager = RepositoryManager.shared
     var cocktails: [Cocktail] {
-        
-        print("view changed")
-        return cacheManager.cachedCocktails
+        repositoryManager.cocktails
     }
     
-    init() { }
+    var randomCocktails: [Cocktail] {
+        var cocktails: Set<Cocktail> = []
+        while cocktails.count < 10 {
+            if let randomCocktail = self.cocktails.randomElement() {
+                cocktails.insert(randomCocktail)
+            } else {
+                break
+            }
+        }
+        
+        return Array(cocktails)
+    }
+    
+    func loadData() {
+        repositoryManager.loadCachedData()
+    }
     
     func reloadData() async {
-        do {
-            let cocktails = try await service.fetchAllCocktails()
-            cacheManager.save(cocktails: cocktails)
-        } catch {
-            print(error.localizedDescription)
-        }
+        await repositoryManager.fetchNewData()
+        repositoryManager.loadCachedData()
     }
     
     func eraseData() {
-        cacheManager.delete()
+        repositoryManager.eraseCachedData()
+        repositoryManager.loadCachedData()
     }
 }

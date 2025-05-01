@@ -9,19 +9,12 @@ import Foundation
 
 @Observable
 class StartupViewModel {
-    private let service = CocktailAPIService.shared
-    private let cacheManager = CacheManager.shared
+    private let repositoryManager = RepositoryManager.shared
     
     private(set) var isShowingSplash = true
     
-    func loadData() async {
-        do {
-            let cocktails = try await service.fetchAllCocktails()
-            cacheManager.save(cocktails: cocktails)
-        } catch {
-            print(error.localizedDescription)
-        }
-        
+    func fetchData() async {
+        await repositoryManager.fetchNewData()
         isShowingSplash = false
     }
 }

@@ -9,11 +9,26 @@ import SwiftUI
 
 struct HomeView: View {
     @State private var viewModel = HomeViewModel()
+    @State private var randomCocktails = HomeViewModel().randomCocktails
+    
+    #if DEBUG
+    init(viewModel: HomeViewModel = HomeViewModel(), randomCocktails: [Cocktail] = HomeViewModel().randomCocktails) {
+        _viewModel = State(wrappedValue: viewModel)
+        _randomCocktails = State(wrappedValue: randomCocktails)
+    }
+    #endif
     
     var body: some View {
         VStack {
-            List(viewModel.cocktails) { cocktail in
-                Text(cocktail.name)
+            ScrollView(.horizontal) {
+                LazyHStack {
+                    ForEach(viewModel.randomCocktails) { cocktail in
+                        CocktailCardView(cocktail: cocktail)
+                    }
+                }
+            }
+            .onAppear {
+                viewModel.loadData()
             }
             
             Button("Reload") {

@@ -14,7 +14,7 @@ struct StartupView: View {
         if viewModel.isShowingSplash {
             SplashScreenView()
                 .task {
-                    await viewModel.loadData()
+                    await viewModel.fetchData()
                 }
         } else {
             TabView {

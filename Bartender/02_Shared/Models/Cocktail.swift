@@ -20,13 +20,17 @@ struct Cocktail: Identifiable, Codable {
     let preparation: String
     let imageURL: String
     
-    struct Ingredient: Codable {
+    struct Ingredient: Codable, Hashable {
         let name: String
         let amount: Double
         let unit: String
     }
 }
 
-//extension Cocktail {
-//    static let mock: Cocktail
-//}
+extension Cocktail: Hashable {
+    static func == (lhs: Cocktail, rhs: Cocktail) -> Bool {
+        lhs.id == rhs.id
+    }
+    
+    
+}

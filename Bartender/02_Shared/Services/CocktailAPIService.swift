@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SDWebImageWebPCoder
 
 // Ckocktail API endpoints:
 // all recipes - https://cocktail-api-84q3.onrender.com/recipes
@@ -16,21 +17,9 @@ import Foundation
 // search ingredient by name - https://cocktail-api-84q3.onrender.com/ingredients?name=vodka
 
 class CocktailAPIService {
-    private enum CocktailAPIError: Error {
-        case notFound
-        case unexpectedStatusCode(code: Int)
-        
-        var localizedDescription: String {
-            switch self {
-            case .notFound:
-                "No matching term was found"
-            case .unexpectedStatusCode(let code):
-                "Unexpected respose code: \(code)"
-            }
-        }
-    }
-    
     static let shared = CocktailAPIService()
+    
+    private init() { }
     
     // Common JSONDecoder and URLSession
     private let jsonDecoder = JSONDecoder()
@@ -43,9 +32,23 @@ class CocktailAPIService {
         return URLSession(configuration: config)
     }()
     
-    private init() { }
+    private func validate(_ response: URLResponse) throws {
+        guard let httpResponse = response as? HTTPURLResponse else {
+            throw URLError(.badServerResponse)
+        }
+        
+        switch httpResponse.statusCode {
+        case 200...299:
+            return
+        case 404:
+            throw CocktailAPIError.notFound
+        default:
+            throw CocktailAPIError.unexpectedStatusCode(code: httpResponse.statusCode)
+        }
+    }
     
     func fetchAllCocktails() async throws -> [Cocktail] {
+        print("waiting for server response...")
         guard let url = URL(string: "https://cocktail-api-84q3.onrender.com/recipes") else {
             throw URLError(.badURL)
         }
@@ -81,6 +84,22 @@ class CocktailAPIService {
         return cocktails
     }
     
+    func fetchImage(for cocktail: Cocktail) async throws -> UIImage {
+        print("waiting for image \(cocktail.name)...")
+        guard let url = URL(string: cocktail.imageURL) else {
+            throw URLError(.badURL)
+        }
+        
+        let (data, response) = try await urlSession.data(from: url)
+        try validate(response)
+        
+        guard let uiImage = SDImageWebPCoder.shared.decodedImage(with: data, options: nil) else {
+            throw SDWebImageError(.badImageData)
+        }
+        
+        return uiImage
+    }
+    
     func fetchAllIngredients() async throws -> [String: IngredientAttributes] {
         guard let url = URL(string: "https://cocktail-api-84q3.onrender.com/ingredients") else {
             throw URLError(.badURL)
@@ -92,20 +111,21 @@ class CocktailAPIService {
         
         return ingredients
     }
-    
-    private func validate(_ response: URLResponse) throws {
-        guard let httpResponse = response as? HTTPURLResponse else {
-            throw URLError(.badServerResponse)
-        }
+}
+
+
+extension CocktailAPIService {
+    private enum CocktailAPIError: Error {
+        case notFound
+        case unexpectedStatusCode(code: Int)
         
-        switch httpResponse.statusCode {
-        case 200...299:
-            return
-        case 404:
-            throw CocktailAPIError.notFound
-        default:
-            throw CocktailAPIError.unexpectedStatusCode(code: httpResponse.statusCode)
+        var localizedDescription: String {
+            switch self {
+            case .notFound:
+                "No matching term was found"
+            case .unexpectedStatusCode(let code):
+                "Unexpected respose code: \(code)"
+            }
         }
     }
 }
-

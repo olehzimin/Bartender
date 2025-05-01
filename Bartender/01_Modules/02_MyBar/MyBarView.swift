@@ -9,8 +9,9 @@ import SwiftUI
 
 struct MyBarView: View {
     var body: some View {
-        Text("MyBar")
-            .navigationTitle("My Bar")
+        Rectangle()
+            .frame(height: 1)
+            .position(x: 0, y: -59)
     }
     
 }
