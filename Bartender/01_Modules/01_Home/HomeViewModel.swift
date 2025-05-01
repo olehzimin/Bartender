@@ -9,7 +9,7 @@ import SwiftUI
 
 @Observable
 class HomeViewModel {
-    private let repositoryManager = RepositoryManager.shared
+    fileprivate var repositoryManager = RepositoryManager.shared
     var cocktails: [Cocktail] {
         repositoryManager.cocktails
     }
@@ -27,6 +27,10 @@ class HomeViewModel {
         return Array(cocktails)
     }
     
+    var randomCocktail: Cocktail? {
+            self.cocktails.randomElement()
+    }
+    
     func loadData() {
         repositoryManager.loadCachedData()
     }
@@ -41,3 +45,12 @@ class HomeViewModel {
         repositoryManager.loadCachedData()
     }
 }
+
+#if DEBUG
+extension HomeViewModel {
+    convenience init(repositoryManager: MockRepositoryManager) {
+        self.init()
+        self.repositoryManager = repositoryManager
+    }
+}
+#endif

@@ -10,22 +10,31 @@ import SwiftUI
 struct HomeView: View {
     @State private var viewModel = HomeViewModel()
     @State private var randomCocktails = HomeViewModel().randomCocktails
+    @State private var randomCocktail: Cocktail?
     
     #if DEBUG
     init(viewModel: HomeViewModel = HomeViewModel(), randomCocktails: [Cocktail] = HomeViewModel().randomCocktails) {
         _viewModel = State(wrappedValue: viewModel)
         _randomCocktails = State(wrappedValue: randomCocktails)
+        _randomCocktail = State(wrappedValue: randomCocktails.first)
     }
     #endif
     
     var body: some View {
         VStack {
-            ScrollView(.horizontal) {
+            if let randomCocktail {
+                CocktailMainCardView(cocktail: randomCocktail)
+            } else {
+                ProgressView()
+            }
+            
+            ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack {
                     ForEach(viewModel.randomCocktails) { cocktail in
                         CocktailCardView(cocktail: cocktail)
                     }
                 }
+                .padding(.horizontal, 16)
             }
             .onAppear {
                 viewModel.loadData()
@@ -45,5 +54,7 @@ struct HomeView: View {
 }
 
 #Preview {
-    HomeView()
+    let repositoryManager = MockRepositoryManager.shared
+    
+    return HomeView(viewModel: HomeViewModel(repositoryManager: repositoryManager))
 }

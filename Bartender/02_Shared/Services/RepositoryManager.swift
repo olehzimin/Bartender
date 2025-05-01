@@ -85,5 +85,21 @@ class MockRepositoryManager: RepositoryManager {
         
         cocktails = mockCocktails
     }
+    
+    override func image(for cocktail: Cocktail) async -> UIImage {
+//        guard let url = Bundle.main.url(forResource: "cocktail-image.jpg", withExtension: nil) else {
+//            fatalError("Bad url of image in Bundle")
+//        }
+//        
+//        guard let data = try? Data(contentsOf: url) else {
+//            fatalError("Corrupted data")
+//        }
+        
+        guard let uiImage = UIImage(named: "cocktail-image.jpg", in: .main, with: nil) else {
+            fatalError("Cannot find image in Bundle")
+        }
+        
+        return uiImage
+    }
 }
 #endif

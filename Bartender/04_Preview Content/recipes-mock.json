@@ -6,7 +6,7 @@
       "dry"
     ],
     "glass": "martini",
-    "category": "Before Dinner Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "amount": 6,
@@ -27,7 +27,8 @@
     "special": [],
     "garnish": "Lemon twist",
     "preparation": "Shake and strain into a chilled cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-vesper-6695cdd43284b.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-vesper-6695cdd43284b.webp",
+    "likes": 460
   },
   {
     "name": "Negroni",
@@ -37,7 +38,7 @@
       "dry"
     ],
     "glass": "old-fashioned",
-    "category": "Before Dinner Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "name": "Gin",
@@ -58,7 +59,8 @@
     "special": [],
     "garnish": "Half an orange slice",
     "preparation": "Build into old-fashioned glass filled with ice. Stir gently.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-negroni-6694911cc3b65.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-negroni-6694911cc3b65.webp",
+    "likes": 731
   },
   {
     "name": "Old Fashioned",
@@ -67,7 +69,7 @@
       "dry"
     ],
     "glass": "old-fashioned",
-    "category": "Before Dinner Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "name": "Whiskey",
@@ -82,7 +84,8 @@
     ],
     "garnish": "Orange slice and cherry",
     "preparation": "Place sugar cube in old-fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolve. Fill the glass with ice cubes and add whisky.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-old-fashioned-6694911fce360.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-old-fashioned-6694911fce360.webp",
+    "likes": 868
   },
   {
     "name": "Tuxedo",
@@ -91,7 +94,7 @@
       "dry"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "name": "Gin",
@@ -111,7 +114,8 @@
     ],
     "garnish": "Cherry and lemon twist",
     "preparation": "Stir all ingredients with ice and strain into cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-tuxedo-6694912fd3b8f.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-tuxedo-6694912fd3b8f.webp",
+    "likes": 1082
   },
   {
     "name": "Mojito",
@@ -121,7 +125,7 @@
       "sour"
     ],
     "glass": "collins",
-    "category": "Longdrink",
+    "category": "Contemporary",
     "ingredients": [
       {
         "name": "White rum",
@@ -141,7 +145,8 @@
     ],
     "garnish": "Mint leaves and lemon slice",
     "preparation": "Muddle mint sprigs with sugar and lime juice. Add splash of soda water and fill glass with cracked ice. Pour rum and top with soda water. Serve with straw.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-mojito-6695cdc755626.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-mojito-6695cdc755626.webp",
+    "likes": 705
   },
   {
     "name": "Horse's Neck",
@@ -150,7 +155,7 @@
       "dry"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Contemporary",
     "ingredients": [
       {
         "amount": 4,
@@ -168,7 +173,8 @@
     ],
     "garnish": "Lemon twist",
     "preparation": "Build into highball glass with ice cubes. Stir gently. If required, add dashes of Angostura bitters.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-horses-neck-6695cdba5fadc.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-horses-neck-6695cdba5fadc.webp",
+    "likes": 954
   },
   {
     "name": "Planter's Punch",
@@ -178,7 +184,7 @@
       "sweet"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "unit": "cl",
@@ -211,7 +217,8 @@
     ],
     "garnish": "Pineapple slice and a cherry",
     "preparation": "Pour all ingredients, except the bitters, into shaker filled with ice. Shake. Pour into large glass, filled with ice. Add Angostura bitters, on top.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-planters-punch-66949122d41fb.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-planters-punch-66949122d41fb.webp",
+    "likes": 418
   },
   {
     "name": "Sea Breeze",
@@ -221,7 +228,7 @@
       "dry"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Contemporary",
     "ingredients": [
       {
         "name": "Vodka",
@@ -242,7 +249,8 @@
     "special": [],
     "garnish": "Lime wedge",
     "preparation": "Build all ingredients in a rock glass filled with ice.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-sea-breeze-6695cdce015a8.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-sea-breeze-6695cdce015a8.webp",
+    "likes": 729
   },
   {
     "name": "Pisco Sour",
@@ -251,7 +259,7 @@
       "sour"
     ],
     "glass": "old-fashioned",
-    "category": "All Day Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "name": "Pisco",
@@ -274,7 +282,8 @@
     ],
     "garnish": "",
     "preparation": "Shake and strain into a chilled champagne flute. Dash some Angostura bitters on top.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-pisco-sour-6695cdcaf1122.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-pisco-sour-6695cdcaf1122.webp",
+    "likes": 152
   },
   {
     "name": "Long Island Iced Tea",
@@ -284,7 +293,7 @@
       "sweet"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Contemporary",
     "ingredients": [
       {
         "name": "Tequila",
@@ -327,7 +336,8 @@
     ],
     "garnish": "Lemon twist",
     "preparation": "Add all ingredients into highball glass filled with ice. Stir gently. Serve with straw.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-long-island-iced-tea-6695cdc10c463.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-long-island-iced-tea-6695cdc10c463.webp",
+    "likes": 397
   },
   {
     "name": "Clover Club",
@@ -337,7 +347,7 @@
       "sweet"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "name": "Gin",
@@ -360,7 +370,8 @@
     ],
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-clover-club-66949108a3e54.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-clover-club-66949108a3e54.webp",
+    "likes": 1250
   },
   {
     "name": "Angel Face",
@@ -369,7 +380,7 @@
       "dry"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "name": "Gin",
@@ -390,7 +401,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into a cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-angel-face-669490fe6df67.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-angel-face-669490fe6df67.webp",
+    "likes": 268
   },
   {
     "name": "Mimosa",
@@ -400,7 +412,7 @@
       "sweet"
     ],
     "glass": "champagne-flute",
-    "category": "Sparkling Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "name": "Champagne",
@@ -416,7 +428,8 @@
     "special": [],
     "garnish": "Optional orange twist",
     "preparation": "Pour orange juice into flute and gently pour Champagne. Stir gently. Note: Buck's Fizz is a very similar cocktail but made of two parts champagne to one part orange juice.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-mimosa-6695cdc4463c9.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-mimosa-6695cdc4463c9.webp",
+    "likes": 1092
   },
   {
     "name": "Whiskey Sour",
@@ -425,7 +438,7 @@
       "sour"
     ],
     "glass": "old-fashioned",
-    "category": "Before Dinner Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "unit": "cl",
@@ -446,7 +459,8 @@
     "special": [],
     "garnish": "Half an orange slice and cherry",
     "preparation": "Dash egg white (Optional: if used shake little harder to foam up the egg white). Pour all ingredients into cocktail shaker filled with ice. Shake. Strain into cocktail glass. If served on the rocks, strain ingredients into old-fashioned glass filled with ice.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-whiskey-sour-66949132e6ae9.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-whiskey-sour-66949132e6ae9.webp",
+    "likes": 838
   },
   {
     "name": "Cuba Libre",
@@ -456,7 +470,7 @@
       "sour"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Contemporary",
     "ingredients": [
       {
         "amount": 5,
@@ -477,7 +491,8 @@
     "special": [],
     "garnish": "Lime wedge",
     "preparation": "Build all ingredients in a highball glass filled with ice.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-cuba-libre-6695cdb0a6f80.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-cuba-libre-6695cdb0a6f80.webp",
+    "likes": 674
   },
   {
     "name": "Manhattan",
@@ -486,7 +501,7 @@
       "dry"
     ],
     "glass": "martini",
-    "category": "Before Dinner Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "name": "Whiskey",
@@ -504,7 +519,8 @@
     ],
     "garnish": "Cherry",
     "preparation": "Stir in mixing glass with ice cubes. Strain into chilled cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-manhattan-6694911627de7.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-manhattan-6694911627de7.webp",
+    "likes": 1243
   },
   {
     "name": "Porto Flip",
@@ -514,7 +530,7 @@
       "dry"
     ],
     "glass": "martini",
-    "category": "After Dinner Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "name": "Cognac",
@@ -535,7 +551,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into cocktail glass. Sprinkle with fresh ground nutmeg.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-porto-flip-669491230cea4.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-porto-flip-669491230cea4.webp",
+    "likes": 829
   },
   {
     "name": "Gin Fizz",
@@ -545,7 +562,7 @@
       "sweet"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "unit": "cl",
@@ -571,7 +588,8 @@
     "special": [],
     "garnish": "Lemon slice",
     "preparation": "Shake all ingredients with ice cubes, except soda water. Pour into tumbler. Top with soda water.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-gin-fizz-6694910fc2eab.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-gin-fizz-6694910fc2eab.webp",
+    "likes": 885
   },
   {
     "name": "Espresso Martini",
@@ -581,7 +599,7 @@
       "dry"
     ],
     "glass": "martini",
-    "category": "After Dinner Cocktail",
+    "category": "New Era",
     "ingredients": [
       {
         "name": "Vodka",
@@ -600,7 +618,8 @@
     ],
     "garnish": "",
     "preparation": "Shake and strain into a chilled cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-espresso-martini-6695d3a172fd3.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-espresso-martini-6695d3a172fd3.webp",
+    "likes": 566
   },
   {
     "name": "Margarita",
@@ -609,7 +628,7 @@
       "sour"
     ],
     "glass": "margarita",
-    "category": "All Day Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "amount": 3.5,
@@ -630,7 +649,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into cocktail glass rimmed with salt (note:Fruit Margarita - blend selected fruit with the above recipe).",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-margarita-6695cdd7505e0.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-margarita-6695cdd7505e0.webp",
+    "likes": 450
   },
   {
     "name": "French 75",
@@ -639,7 +659,7 @@
       "dry"
     ],
     "glass": "champagne-tulip",
-    "category": "Sparkling Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "name": "Gin",
@@ -662,7 +682,8 @@
     ],
     "garnish": "",
     "preparation": "Shake with ice cubes, except for champagne. Strain into a champagne flute. Top up with champagne. Stir gently.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-french-75-6695cdb175e06.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-french-75-6695cdb175e06.webp",
+    "likes": 507
   },
   {
     "name": "Jungle Bird",
@@ -671,7 +692,7 @@
       "sour"
     ],
     "glass": "rocks",
-    "category": "All Day Cocktail",
+    "category": "New Era",
     "ingredients": [
       {
         "amount": 4.5,
@@ -697,7 +718,8 @@
     "special": [],
     "garnish": "Pineapple wedge",
     "preparation": "Pour all ingredients into a shaker with ice and shake. Strain into a rocks glass filled with ice.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-jungle-bird-6695d3ab45a87.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-jungle-bird-6695d3ab45a87.webp",
+    "likes": 87
   },
   {
     "name": "Pina Colada",
@@ -706,7 +728,7 @@
       "sweet"
     ],
     "glass": "hurricane",
-    "category": "Longdrink",
+    "category": "Contemporary",
     "ingredients": [
       {
         "amount": 3,
@@ -727,7 +749,8 @@
     "special": [],
     "garnish": "Pineapple slice and a cherry",
     "preparation": "Blend all the ingredients with ice in a electric blender, pour into a large goblet or Hurricane glass and serve with straws.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-pina-colada-6695cdcabbf00.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-pina-colada-6695cdcabbf00.webp",
+    "likes": 749
   },
   {
     "name": "Aviation",
@@ -736,7 +759,7 @@
       "dry"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "name": "Gin",
@@ -757,7 +780,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Shake and strain into a chilled cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-aviation-66949102296a4.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-aviation-66949102296a4.webp",
+    "likes": 86
   },
   {
     "name": "Bellini",
@@ -767,7 +791,7 @@
       "dry"
     ],
     "glass": "champagne-flute",
-    "category": "Sparkling Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "name": "Prosecco",
@@ -783,7 +807,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Pour peach puree into chilled glass and add sparkling wine. Stir gently. Variations: Puccini (fresh mandarin juice), Rossini (fresh strawberry puree), Tintoretto (fresh pomegranate juice)",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-bellini-6695cda4217da.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-bellini-6695cda4217da.webp",
+    "likes": 820
   },
   {
     "name": "Grasshopper",
@@ -792,7 +817,7 @@
       "sweet"
     ],
     "glass": "martini",
-    "category": "After Dinner Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "unit": "cl",
@@ -813,7 +838,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into chilled cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-grasshopper-6695cdb737498.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-grasshopper-6695cdb737498.webp",
+    "likes": 681
   },
   {
     "name": "Tequila Sunrise",
@@ -823,7 +849,7 @@
       "sweet"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Contemporary",
     "ingredients": [
       {
         "amount": 4.5,
@@ -844,7 +870,8 @@
     "special": [],
     "garnish": "Orange slice and a cherry",
     "preparation": "Build tequila and orange juice into highball with ice cubes. Add a splash of grenadine to create sunrise effect. Do not stir.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-tequila-sunrise-6695cdd3da10a.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-tequila-sunrise-6695cdd3da10a.webp",
+    "likes": 474
   },
   {
     "name": "Daiquiri",
@@ -853,7 +880,7 @@
       "sour"
     ],
     "glass": "martini",
-    "category": "Before Dinner Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "amount": 4.5,
@@ -874,7 +901,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Shake and strain into a cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-daiquiri-6694910c5866e.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-daiquiri-6694910c5866e.webp",
+    "likes": 614
   },
   {
     "name": "Rusty Nail",
@@ -883,7 +911,7 @@
       "dry"
     ],
     "glass": "old-fashioned",
-    "category": "After Dinner Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "unit": "cl",
@@ -899,7 +927,8 @@
     "special": [],
     "garnish": "Lemon twist",
     "preparation": "Build into old-fashioned glass filled with ice. Stir gently.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-rusty-nail-66949129acfd1.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-rusty-nail-66949129acfd1.webp",
+    "likes": 1086
   },
   {
     "name": "Stinger",
@@ -908,7 +937,7 @@
       "sweet"
     ],
     "glass": "martini",
-    "category": "After Dinner Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "name": "Cognac",
@@ -924,7 +953,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Stir in mixing glass with ice cubes. Strain into a cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-stinger-6694912ce0b8d.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-stinger-6694912ce0b8d.webp",
+    "likes": 102
   },
   {
     "name": "Spritz",
@@ -933,7 +963,7 @@
       "sweet"
     ],
     "glass": "old-fashioned",
-    "category": "Sparkling Cocktail",
+    "category": "New Era",
     "ingredients": [
       {
         "name": "Prosecco",
@@ -951,7 +981,8 @@
     ],
     "garnish": "Half an orange slice",
     "preparation": "Build into an old-fashioned glass filled with ice. Top with a splash of soda water.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-spritz-6695d3c0f113f.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-spritz-6695d3c0f113f.webp",
+    "likes": 818
   },
   {
     "name": "Bramble",
@@ -960,7 +991,7 @@
       "sweet"
     ],
     "glass": "old-fashioned",
-    "category": "All Day Cocktail",
+    "category": "New Era",
     "ingredients": [
       {
         "amount": 4,
@@ -986,7 +1017,8 @@
     "special": [],
     "garnish": "Lemon slice and two blackberries",
     "preparation": "Build over crushed ice, in a rock glass. Stir, then pour the blackberry liqueur over the top of the drink in a circular fashion.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-bramble-6695d398036e1.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-bramble-6695d398036e1.webp",
+    "likes": 900
   },
   {
     "name": "Alexander",
@@ -995,7 +1027,7 @@
       "sweet"
     ],
     "glass": "martini",
-    "category": "After Dinner Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "unit": "cl",
@@ -1016,7 +1048,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Shake and strain into a chilled cocktail glass. Sprinkle with fresh ground nutmeg.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-alexander-669491364f7f2.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-alexander-669491364f7f2.webp",
+    "likes": 215
   },
   {
     "name": "Lemon Drop Martini",
@@ -1026,7 +1059,7 @@
       "dry"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "unit": "cl",
@@ -1047,7 +1080,8 @@
     "special": [],
     "garnish": "Lemon slice",
     "preparation": "Shake and strain into a chilled cocktail glass rimmed with sugar.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-lemon-drop-martini-6695cdbe3eed7.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-lemon-drop-martini-6695cdbe3eed7.webp",
+    "likes": 1161
   },
   {
     "name": "French Martini",
@@ -1057,7 +1091,7 @@
       "dry"
     ],
     "glass": "martini",
-    "category": "Before Dinner Cocktail",
+    "category": "New Era",
     "ingredients": [
       {
         "name": "Vodka",
@@ -1078,7 +1112,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Stir in mixing glass with ice cubes. Strain into chilled cocktail glass. Squeeze oil from lemon peel onto the drink.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-french-martini-6695d3a4acf5f.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-french-martini-6695d3a4acf5f.webp",
+    "likes": 823
   },
   {
     "name": "Black Russian",
@@ -1088,7 +1123,7 @@
       "dry"
     ],
     "glass": "old-fashioned",
-    "category": "After Dinner Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "name": "Vodka",
@@ -1104,7 +1139,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Build into old fashioned glass filled with ice cubes. Stir gently. Note: for White Russian, float fresh cream on the top and stir gently.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-black-russian-6695cda4183dc.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-black-russian-6695cda4183dc.webp",
+    "likes": 508
   },
   {
     "name": "Bloody Mary",
@@ -1114,7 +1150,7 @@
       "bitter"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Contemporary",
     "ingredients": [
       {
         "amount": 4.5,
@@ -1140,7 +1176,8 @@
     ],
     "garnish": "Celery and optionally lemon wedge",
     "preparation": "Stir gently, pour all ingredients into highball glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-bloody-mary-6695cda72fe0f.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-bloody-mary-6695cda72fe0f.webp",
+    "likes": 68
   },
   {
     "name": "Mai-tai",
@@ -1149,7 +1186,7 @@
       "sweet"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Contemporary",
     "ingredients": [
       {
         "name": "White rum",
@@ -1180,7 +1217,8 @@
     "special": [],
     "garnish": "Pineapple spear, mint leaves and lime wedge",
     "preparation": "Shake and strain into highball glass. Serve with straw.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-mai-tai-6695cdc169ea3.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-mai-tai-6695cdc169ea3.webp",
+    "likes": 1156
   },
   {
     "name": "Sex on the Beach",
@@ -1190,7 +1228,7 @@
       "sweet"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Contemporary",
     "ingredients": [
       {
         "name": "Vodka",
@@ -1216,7 +1254,8 @@
     "special": [],
     "garnish": "Orange slice",
     "preparation": "Build all ingredients in a highball glass filled with ice.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-sex-on-the-beach-6695cdd0aecf3.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-sex-on-the-beach-6695cdd0aecf3.webp",
+    "likes": 1093
   },
   {
     "name": "Monkey Gland",
@@ -1226,7 +1265,7 @@
       "dry"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "unit": "cl",
@@ -1245,7 +1284,8 @@
     ],
     "garnish": "",
     "preparation": "Shake and strain into a chilled cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-monkey-gland-6694911cbf5a2.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-monkey-gland-6694911cbf5a2.webp",
+    "likes": 1118
   },
   {
     "name": "Sidecar",
@@ -1254,7 +1294,7 @@
       "sour"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "amount": 5,
@@ -1275,7 +1315,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-sidecar-6694912cb8aa9.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-sidecar-6694912cb8aa9.webp",
+    "likes": 1222
   },
   {
     "name": "Irish Coffee",
@@ -1286,7 +1327,7 @@
       "bitter"
     ],
     "glass": "hot-drink",
-    "category": "Hot Drink",
+    "category": "Contemporary",
     "ingredients": [
       {
         "name": "Whiskey",
@@ -1309,7 +1350,8 @@
     ],
     "garnish": "",
     "preparation": "Warm the Irish whiskey over a burner. Pour into the glass (for hot drink) hot coffee, and add a teaspoon of sugar. Float Cream on top.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-irish-coffee-copy-6695cdbb430cd.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-irish-coffee-copy-6695cdbb430cd.webp",
+    "likes": 1079
   },
   {
     "name": "Sazerac",
@@ -1318,7 +1360,7 @@
       "bitter"
     ],
     "glass": "old-fashioned",
-    "category": "After Dinner Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "unit": "cl",
@@ -1337,7 +1379,8 @@
     ],
     "garnish": "Lemon twist",
     "preparation": "Rinse a chilled old-fashioned glass with the absinthe, add crushed ice and set it aside. Stir the remaining ingredients over ice and set it aside. Discard the ice and any excess absinthe from the prepared glass, and strain the drink into the glass. Note: The original recipe changed after the American Civil War, whiskey substituted cognac as it became hard to obtain.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-sazerac-66949129b50d1.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-sazerac-66949129b50d1.webp",
+    "likes": 275
   },
   {
     "name": "Americano",
@@ -1347,7 +1390,7 @@
       "dry"
     ],
     "glass": "old-fashioned",
-    "category": "Before Dinner Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "unit": "cl",
@@ -1365,7 +1408,8 @@
     ],
     "garnish": "Half an orange slice",
     "preparation": "Build into old fashioned glass filled with ice cubes. Add a splash of soda water.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-americano-669490fe3cb42.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-americano-669490fe3cb42.webp",
+    "likes": 802
   },
   {
     "name": "Singapore Sling",
@@ -1375,7 +1419,7 @@
       "sweet"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Contemporary",
     "ingredients": [
       {
         "amount": 3,
@@ -1418,7 +1462,8 @@
     ],
     "garnish": "Pineapple slice and a cherry",
     "preparation": "Shake with ice cubes. Strain into highball glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-singapore-sling-6695cdd136426.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-singapore-sling-6695cdd136426.webp",
+    "likes": 237
   },
   {
     "name": "French Connection",
@@ -1428,7 +1473,7 @@
       "dry"
     ],
     "glass": "old-fashioned",
-    "category": "After Dinner Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "name": "Cognac",
@@ -1444,7 +1489,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Build into old fashioned glass filled with ice cubes. Stir gently.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-french-connection-6695cdb3cc15f.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-french-connection-6695cdb3cc15f.webp",
+    "likes": 997
   },
   {
     "name": "Moscow Mule",
@@ -1453,7 +1499,7 @@
       "sour"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Contemporary",
     "ingredients": [
       {
         "amount": 4.5,
@@ -1476,7 +1522,8 @@
     ],
     "garnish": "Lime slice",
     "preparation": "Combine the vodka and ginger beer. Add lime juice.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-moscow-mule-6695cdc7d8cb2.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-moscow-mule-6695cdc7d8cb2.webp",
+    "likes": 545
   },
   {
     "name": "John Collins",
@@ -1486,7 +1533,7 @@
       "sour"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "unit": "cl",
@@ -1512,7 +1559,8 @@
     "special": [],
     "garnish": "Lemon slice and a cherry",
     "preparation": "Build into highball glass filled with ice. Stir gently. Add a dash of Angostura bitters. (Note: Use Old Tom Gin for Tom Collins)",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-john-collins-669491130ef87.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-john-collins-669491130ef87.webp",
+    "likes": 575
   },
   {
     "name": "Kir",
@@ -1522,7 +1570,7 @@
       "dry"
     ],
     "glass": "white-wine",
-    "category": "Before Dinner Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "name": "Dry White Wine",
@@ -1538,7 +1586,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Pour Creme de Cassis into glass, top up with white wine. For Kir Royal: Use champagne instead of white wine.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-kir-6695cdbdbb2e1.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-kir-6695cdbdbb2e1.webp",
+    "likes": 1195
   },
   {
     "name": "Mint Julep",
@@ -1548,7 +1597,7 @@
       "dry"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Contemporary",
     "ingredients": [
       {
         "amount": 6,
@@ -1563,7 +1612,8 @@
     ],
     "garnish": "Mint sprig",
     "preparation": "In a highball glass gently muddle the mint, sugar and water. Fill the glass with cracked ice, add whiskey and stir well until the glass is frost.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-mint-julep-6695cdc4aa398.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-mint-julep-6695cdc4aa398.webp",
+    "likes": 621
   },
   {
     "name": "Tommy's Margarita",
@@ -1572,7 +1622,7 @@
       "sour"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "New Era",
     "ingredients": [
       {
         "name": "Tequila",
@@ -1590,7 +1640,8 @@
     ],
     "garnish": "",
     "preparation": "Shake and strain into a chilled cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-tommys-margarita-6695d3c7171ef.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-tommys-margarita-6695d3c7171ef.webp",
+    "likes": 840
   },
   {
     "name": "Paradise",
@@ -1600,7 +1651,7 @@
       "dry"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "amount": 3.5,
@@ -1621,7 +1672,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into chilled cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-paradise-6694911fdbd4b.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-paradise-6694911fdbd4b.webp",
+    "likes": 483
   },
   {
     "name": "Champagne Cocktail",
@@ -1631,7 +1683,7 @@
       "bitter"
     ],
     "glass": "champagne-flute",
-    "category": "Sparkling Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "unit": "cl",
@@ -1650,7 +1702,8 @@
     ],
     "garnish": "Orange slice and a cherry",
     "preparation": "Add dash of Angostura bitter onto sugar cube and drop it into champagne flute. Add cognac followed by pouring gently chilled champagne.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-champagne-cocktail-6695cdaa71bb2.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-champagne-cocktail-6695cdaa71bb2.webp",
+    "likes": 1032
   },
   {
     "name": "Mary Pickford",
@@ -1659,7 +1712,7 @@
       "sweet"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "amount": 6,
@@ -1685,7 +1738,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Shake and strain into a chilled large cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-mary-pickford-6694911933ea7.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-mary-pickford-6694911933ea7.webp",
+    "likes": 846
   },
   {
     "name": "Hemingway Special",
@@ -1695,7 +1749,7 @@
       "sweet"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "unit": "cl",
@@ -1721,7 +1775,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into a double cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-hemingway-special-6695cdb814e5a.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-hemingway-special-6695cdb814e5a.webp",
+    "likes": 894
   },
   {
     "name": "Dark 'n' Stormy",
@@ -1730,7 +1785,7 @@
       "sweet"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "New Era",
     "ingredients": [
       {
         "name": "Dark rum",
@@ -1746,7 +1801,8 @@
     "special": [],
     "garnish": "Lime wedge",
     "preparation": "Build into highball glass filled with ice. Add rum first and top it with ginger beer.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-dark-n-stormy-6695d39e2bd94.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-dark-n-stormy-6695d39e2bd94.webp",
+    "likes": 636
   },
   {
     "name": "Ramos Fizz",
@@ -1756,7 +1812,7 @@
       "sweet"
     ],
     "glass": "highball",
-    "category": "Longdrink",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "unit": "cl",
@@ -1792,7 +1848,8 @@
     ],
     "garnish": "",
     "preparation": "Pour all ingredients (except soda) in a mixing glass, dry shake (no ice) for two minutes, add ice and hard shake for another minute. Strain into a highball glass without ice, top with soda.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-ramos-fizz-669491260ca6c.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-ramos-fizz-669491260ca6c.webp",
+    "likes": 340
   },
   {
     "name": "Russian Spring Punch",
@@ -1802,7 +1859,7 @@
       "sweet"
     ],
     "glass": "highball",
-    "category": "Sparkling Cocktail",
+    "category": "New Era",
     "ingredients": [
       {
         "amount": 2.5,
@@ -1828,7 +1885,8 @@
     "special": [],
     "garnish": "Lemon slice and a blackberry",
     "preparation": "Shake the ingredients and pour into highball glass. Top with Sparkling wine.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-russian-spring-punch-6695d3ba314f1.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-russian-spring-punch-6695d3ba314f1.webp",
+    "likes": 1016
   },
   {
     "name": "Cosmopolitan",
@@ -1838,7 +1896,7 @@
       "sour"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "name": "Vodka",
@@ -1864,7 +1922,8 @@
     "special": [],
     "garnish": "Lime slice",
     "preparation": "Shake with ice cubes. Strain into a large cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-cosmopolitan-6695cdae389dc.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-cosmopolitan-6695cdae389dc.webp",
+    "likes": 166
   },
   {
     "name": "Dry Martini",
@@ -1873,7 +1932,7 @@
       "dry"
     ],
     "glass": "martini",
-    "category": "Before Dinner Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "amount": 6,
@@ -1889,7 +1948,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Stir in mixing glass with ice cubes. Strain into chilled martini glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-dry-martini-6694910fb500c.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-dry-martini-6694910fb500c.webp",
+    "likes": 384
   },
   {
     "name": "Between the Sheets",
@@ -1899,7 +1959,7 @@
       "dry"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "amount": 3,
@@ -1925,7 +1985,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into chilled cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-between-the-sheets-669491023d7af.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-between-the-sheets-669491023d7af.webp",
+    "likes": 303
   },
   {
     "name": "Casino",
@@ -1935,7 +1996,7 @@
       "bitter"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "name": "Gin",
@@ -1961,7 +2022,8 @@
     "special": [],
     "garnish": "Lemon twist and a cherry",
     "preparation": "Shake with ice cubes. Strain into chilled cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-casino-6694910882cd6.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-casino-6694910882cd6.webp",
+    "likes": 403
   },
   {
     "name": "Caipirinha",
@@ -1970,7 +2032,7 @@
       "sweet"
     ],
     "glass": "old-fashioned",
-    "category": "All Day Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "unit": "cl",
@@ -1984,7 +2046,8 @@
     ],
     "garnish": "",
     "preparation": "Place lime and sugar in old fashion glass and muddle. Fill glass with ice and Cachaca (note: Caipiroska - use Vodka instead of Cachaca).",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-caipirinha-6695cda74b13a.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-caipirinha-6695cda74b13a.webp",
+    "likes": 579
   },
   {
     "name": "White Lady",
@@ -1994,7 +2057,7 @@
       "dry"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "name": "Gin",
@@ -2015,7 +2078,8 @@
     "special": [],
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into large cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-white-lady-6694913318105.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-white-lady-6694913318105.webp",
+    "likes": 626
   },
   {
     "name": "Cardinale",
@@ -2024,7 +2088,7 @@
       "bitter"
     ],
     "glass": "rocks",
-    "category": "All Day Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "unit": "cl",
@@ -2045,7 +2109,8 @@
     "special": [],
     "garnish": "Lemon zest",
     "preparation": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-cardinale-6695cdaa5f0d8.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-cardinale-6695cdaa5f0d8.webp",
+    "likes": 585
   },
   {
     "name": "Martinez",
@@ -2055,7 +2120,7 @@
       "sweet"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "unit": "cl",
@@ -2069,12 +2134,13 @@
       }
     ],
     "special": [
-        "1 bar spoon Maraschino Luxardo",
-        "2 dashes Orange Bitters"
+      "1 bar spoon Maraschino Luxardo",
+      "2 dashes Orange Bitters"
     ],
     "garnish": "Lemon zest",
     "preparation": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-martinez-6694911927849.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-martinez-6694911927849.webp",
+    "likes": 202
   },
   {
     "name": "Garibaldi",
@@ -2084,7 +2150,7 @@
       "sour"
     ],
     "glass": "highball",
-    "category": "All Day Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "unit": "cl",
@@ -2100,7 +2166,8 @@
     "special": [],
     "garnish": "Orange wedge",
     "preparation": "Build all ingredients in a highball glass filled with ice.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-garibaldi-6695cdb4cbf81.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-garibaldi-6695cdb4cbf81.webp",
+    "likes": 1118
   },
   {
     "name": "Rabo de Galo",
@@ -2110,7 +2177,7 @@
       "bitter"
     ],
     "glass": "rocks",
-    "category": "All Day Cocktail",
+    "category": "Contemporary",
     "ingredients": [
       {
         "unit": "cl",
@@ -2129,11 +2196,12 @@
       }
     ],
     "special": [
-        "2 Drops Angostura (Optional)"
+      "2 Drops Angostura (Optional)"
     ],
     "garnish": "Orange twist",
     "preparation": "Combine all the ingredients into a rocks glass, add ice and stir briefly.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-rabo-de-galo-6695cdcdb2df1.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-rabo-de-galo-6695cdcdb2df1.webp",
+    "likes": 718
   },
   {
     "name": "Boulevardier",
@@ -2143,7 +2211,7 @@
       "bitter"
     ],
     "glass": "martini",
-    "category": "All Day Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "unit": "cl",
@@ -2164,7 +2232,8 @@
     "special": [],
     "garnish": "Orange or lemon zest",
     "preparation": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-boulevardier-6694910552acd.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-boulevardier-6694910552acd.webp",
+    "likes": 359
   },
   {
     "name": "Hanky Panky",
@@ -2174,7 +2243,7 @@
       "bitter"
     ],
     "glass": "martini",
-    "category": "After Dinner Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "unit": "cl",
@@ -2195,7 +2264,8 @@
     "special": [],
     "garnish": "Orange zest",
     "preparation": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled cocktail glass.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-hanky-panky-66949112edbf5.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-hanky-panky-66949112edbf5.webp",
+    "likes": 269
   },
   {
     "name": "Remember the Maine",
@@ -2205,7 +2275,7 @@
       "bitter"
     ],
     "glass": "old-fashioned",
-    "category": "After Dinner Cocktail",
+    "category": "Unforgettables",
     "ingredients": [
       {
         "unit": "cl",
@@ -2231,6 +2301,7 @@
     "special": [],
     "garnish": "Lemon zest",
     "preparation": "Pour the absinthe into a coupe glass and swirl to completely coat the inside. Discard the absinthe and set the glass aside. Add the other ingredients to a mixing glass and fill it 3/4 full with ice. Stir until chilled, then strain into the glass rinsed with the absinthe.",
-    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-remember-the-main-6694912622959.webp"
+    "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-remember-the-main-6694912622959.webp",
+    "likes": 524
   }
 ]

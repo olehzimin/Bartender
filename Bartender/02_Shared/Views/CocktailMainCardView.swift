@@ -1,5 +1,5 @@
 //
-//  CocktailCardView.swift
+//  CocktailMainCardView.swift
 //  Bartender
 //
 //  Created by Oleh Zimin on 17.04.2025.
@@ -7,11 +7,12 @@
 
 import SwiftUI
 
-struct CocktailCardView: View {
+struct CocktailMainCardView: View {
     let repositoryManager: RepositoryManager
     let cocktail: Cocktail
     @State private var image: UIImage?
     
+    let height: CGFloat = 220
     let footerBackground = LinearGradient(
         stops: [
             .init(color: .black, location: 0.3),
@@ -27,16 +28,19 @@ struct CocktailCardView: View {
     }
     
     var body: some View {
-        ZStack(alignment: .bottomTrailing) {
+        ZStack(alignment: .bottom) {
             Group {
                 if let image {
                     Image(uiImage: image)
                         .resizable()
-                        .offset(y: -30)
+                        .scaledToFill()
+                        .offset(x: -40, y: -70)
+                        
                 } else {
                     ProgressView()
                 }
             }
+            .frame(height: height)
             .task {
                 image = await repositoryManager.image(for: cocktail)
             }
@@ -73,14 +77,13 @@ struct CocktailCardView: View {
             .padding(16)
             
         }
-        .background(Color.black)
-        .frame(width: 200, height: 300)
+        .frame(height: height)
         .clipShape(
             RoundedRectangle(cornerRadius: 20)
         )
         .background(
             RoundedRectangle(cornerRadius: 20)
-                .fill(Color.white)
+                .fill(Color.black)
                 .shadow(radius: 20)
         )
         
@@ -92,5 +95,6 @@ struct CocktailCardView: View {
     let repositoryManager = MockRepositoryManager.shared
     let cocktail = repositoryManager.mockCocktail
 
-    return CocktailCardView(repositoryManager: repositoryManager, cocktail: cocktail)
+    return CocktailMainCardView(repositoryManager: repositoryManager, cocktail: cocktail)
+        .padding(16)
 }

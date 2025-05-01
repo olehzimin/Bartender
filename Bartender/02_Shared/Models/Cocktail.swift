@@ -19,6 +19,7 @@ struct Cocktail: Identifiable, Codable {
     let garnish: String
     let preparation: String
     let imageURL: String
+    let likes: Int
     
     struct Ingredient: Codable, Hashable {
         let name: String

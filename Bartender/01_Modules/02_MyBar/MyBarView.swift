@@ -9,9 +9,7 @@ import SwiftUI
 
 struct MyBarView: View {
     var body: some View {
-        Rectangle()
-            .frame(height: 1)
-            .position(x: 0, y: -59)
+        ProgressView()
     }
     
 }
