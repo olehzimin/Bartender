@@ -9,9 +9,22 @@ import SwiftUI
 
 @Observable
 class HomeViewModel {
-    fileprivate var repositoryManager = RepositoryManager.shared
-    var cocktails: [Cocktail] {
-        repositoryManager.cocktails
+    private var repositoryManager = RepositoryManager.shared
+    private var cocktails: [Cocktail] {
+        repositoryManager.cocktails.sorted { $0.likes > $1.likes }
+    }
+    
+    var firstPopular: Cocktail? {
+        cocktails.first
+    }
+    
+    var nextPopularCocktails: [Cocktail] {
+        var cocktailsSequence: Array<Cocktail>.SubSequence = []
+        if !cocktails.isEmpty {
+            cocktailsSequence = cocktails[1...7]
+        }
+        
+        return Array(cocktailsSequence)
     }
     
     var randomCocktails: [Cocktail] {
@@ -45,12 +58,3 @@ class HomeViewModel {
         repositoryManager.loadCachedData()
     }
 }
-
-#if DEBUG
-extension HomeViewModel {
-    convenience init(repositoryManager: MockRepositoryManager) {
-        self.init()
-        self.repositoryManager = repositoryManager
-    }
-}
-#endif

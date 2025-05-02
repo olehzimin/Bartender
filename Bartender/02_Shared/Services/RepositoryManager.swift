@@ -9,28 +9,41 @@ import SwiftUI
 
 @Observable
 class RepositoryManager {
-    class var shared: RepositoryManager {
-        RepositoryManager()
-    }
-    private let apiService = CocktailAPIService.shared
-    private let cacheManager = CacheManager.shared
+    static let shared: RepositoryManager = {
+        var instance = RepositoryManager()
+        #if targetEnvironment(simulator)
+        instance = MockRepositoryManager()
+        #endif
+        return instance
+    }()
     
     fileprivate init() { }
     
+    // MARK: PROPERTIES
+    private let apiService = CocktailAPIService.shared
+    private let cacheManager = CacheManager.shared
+    private(set) var state = LoadingState.idle
+    
     fileprivate(set) var cocktails: [Cocktail] = []
     
+    
+    // MARK: FUNCTIONS
     func fetchNewData() async {
         do {
+            print("fetching new data...")
             let cocktails = try await apiService.fetchAllCocktails()
             cacheManager.save(cocktails: cocktails)
+            state = .cached
         } catch {
             print(error.localizedDescription)
+            state = .failed
         }
     }
     
     func loadCachedData() {
         cocktails = cacheManager.cocktails
         print("cache loaded correctly")
+        state = .loaded
     }
     
     func eraseCachedData() {
@@ -53,13 +66,13 @@ class RepositoryManager {
     }
 }
 
-#if DEBUG
+enum LoadingState {
+    case idle, cached, loaded, failed
+}
+
+#if targetEnvironment(simulator)
 @Observable
 class MockRepositoryManager: RepositoryManager {
-    override class var shared: MockRepositoryManager {
-        MockRepositoryManager()
-    }
-    
     var mockCocktail: Cocktail {
         self.loadCachedData()
         
@@ -87,14 +100,6 @@ class MockRepositoryManager: RepositoryManager {
     }
     
     override func image(for cocktail: Cocktail) async -> UIImage {
-//        guard let url = Bundle.main.url(forResource: "cocktail-image.jpg", withExtension: nil) else {
-//            fatalError("Bad url of image in Bundle")
-//        }
-//        
-//        guard let data = try? Data(contentsOf: url) else {
-//            fatalError("Corrupted data")
-//        }
-        
         guard let uiImage = UIImage(named: "cocktail-image.jpg", in: .main, with: nil) else {
             fatalError("Cannot find image in Bundle")
         }

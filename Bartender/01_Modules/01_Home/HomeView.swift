@@ -9,52 +9,68 @@ import SwiftUI
 
 struct HomeView: View {
     @State private var viewModel = HomeViewModel()
-    @State private var randomCocktails = HomeViewModel().randomCocktails
-    @State private var randomCocktail: Cocktail?
-    
-    #if DEBUG
-    init(viewModel: HomeViewModel = HomeViewModel(), randomCocktails: [Cocktail] = HomeViewModel().randomCocktails) {
-        _viewModel = State(wrappedValue: viewModel)
-        _randomCocktails = State(wrappedValue: randomCocktails)
-        _randomCocktail = State(wrappedValue: randomCocktails.first)
-    }
-    #endif
     
     var body: some View {
-        VStack {
-            if let randomCocktail {
-                CocktailMainCardView(cocktail: randomCocktail)
-            } else {
-                ProgressView()
-            }
-            
-            ScrollView(.horizontal, showsIndicators: false) {
-                LazyHStack {
-                    ForEach(viewModel.randomCocktails) { cocktail in
-                        CocktailCardView(cocktail: cocktail)
+        ScrollView(showsIndicators: false) {
+            VStack(spacing: 48) {
+                VStack(alignment: .leading, spacing: 24) {
+                    Text("Trending")
+                        .font(.bartenderLargeTitle)
+                    
+                    CocktailCardView(cocktail: viewModel.firstPopular, style: .main)
+                    
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        LazyHStack(spacing: 8) {
+                            ForEach(viewModel.nextPopularCocktails) { cocktail in
+                                CocktailCardView(cocktail: cocktail)
+                            }
+                        }
+                        
+                    }
+                    
+                }
+                
+                VStack(alignment: .leading, spacing: 24) {
+                    Text("Explore")
+                        .font(.bartenderLargeTitle)
+                    
+                    CocktailCardView(cocktail: viewModel.randomCocktail, style: .main)
+                    ScrollViewReader { proxy in
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            LazyHStack(spacing: 8) {
+                                ForEach(viewModel.randomCocktails) { cocktail in
+                                    CocktailCardView(cocktail: cocktail)
+                                }
+                            }
+                        }
+                        .onAppear {
+                            if let last = viewModel.randomCocktails.last {
+                                proxy.scrollTo(last, anchor: .trailing)
+                            }
+                        }
+                    }
+                    
+                    
+                }
+                
+                Button("Reload") {
+                    Task {
+                        await viewModel.reloadData()
                     }
                 }
-                .padding(.horizontal, 16)
+                
+                Button("Delete",role: .destructive) {
+                    viewModel.eraseData()
+                }
             }
             .onAppear {
                 viewModel.loadData()
             }
-            
-            Button("Reload") {
-                Task {
-                    await viewModel.reloadData()
-                }
-            }
-            
-            Button("Delete",role: .destructive) {
-                viewModel.eraseData()
-            }
+            .padding(.horizontal, 16)
         }
     }
 }
 
 #Preview {
-    let repositoryManager = MockRepositoryManager.shared
-    
-    return HomeView(viewModel: HomeViewModel(repositoryManager: repositoryManager))
+    HomeView()
 }

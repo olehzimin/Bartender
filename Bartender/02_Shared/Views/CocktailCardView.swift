@@ -8,9 +8,28 @@
 import SwiftUI
 
 struct CocktailCardView: View {
-    let repositoryManager: RepositoryManager
-    let cocktail: Cocktail
+    private let repositoryManager = RepositoryManager.shared
+    let cocktail: Cocktail?
+    var style: CardStyle = .normal
     @State private var image: UIImage?
+    
+    var size: (width: CGFloat, height: CGFloat) {
+        switch style {
+        case .normal:
+            (200, 300)
+        case .main:
+            (.infinity, 220)
+        }
+    }
+    
+    var offset: CGSize {
+        switch style {
+        case .normal:
+            CGSize(width: 0, height: -30)
+        case .main:
+            CGSize(width: -40, height: -70)
+        }
+    }
     
     let footerBackground = LinearGradient(
         stops: [
@@ -21,66 +40,68 @@ struct CocktailCardView: View {
         endPoint: .top
     )
     
-    init(repositoryManager: RepositoryManager = RepositoryManager.shared, cocktail: Cocktail) {
-        self.repositoryManager = repositoryManager
-        self.cocktail = cocktail
-    }
-    
     var body: some View {
-        ZStack(alignment: .bottomTrailing) {
-            Group {
-                if let image {
-                    Image(uiImage: image)
-                        .resizable()
-                        .offset(y: -30)
-                } else {
-                    ProgressView()
-                }
-            }
-            .task {
-                image = await repositoryManager.image(for: cocktail)
-            }
-            
-            Rectangle()
-                .fill(footerBackground)
-                .frame(height: 100)
-            
-            VStack(alignment: .trailing) {
-                Image(systemName: "heart.fill")
-                    .font(.title3)
-                    
-                
-                Spacer()
-                
-                VStack(alignment: .leading, spacing: 16) {
-                    Text(cocktail.name)
-                        .font(.bartenderTitle)
-                        
-                    
-                    HStack {
-                        Image(systemName: "heart")
-                        Text(cocktail.likes.formatted())
-                            .foregroundStyle(.gray)
-                        
-                        Spacer()
-                        
-                        Text("abv \(cocktail.abv)%")
+        ZStack(alignment: .bottom) {
+            if let cocktail {
+                Group {
+                    if let image {
+                        Image(uiImage: image)
+                            .resizable()
+                            .scaledToFill()
+                            .offset(offset)
+                    } else {
+                        ProgressView()
                     }
                 }
+                .frame(height: size.height)
+                .task {
+                    image = await repositoryManager.image(for: cocktail)
+                }
+                
+                Rectangle()
+                    .fill(footerBackground)
+                    .frame(height: 100)
+                
+                VStack(alignment: .trailing) {
+                    Image(systemName: "heart.fill")
+                        .font(.title3)
+                    
+                    
+                    Spacer()
+                    
+                    VStack(alignment: .leading, spacing: 16) {
+                        Text(cocktail.name)
+                            .font(.bartenderTitle)
+                        
+                        
+                        HStack {
+                            Image(systemName: "heart")
+                            Text(cocktail.likes.formatted())
+                                .foregroundStyle(.gray)
+                            
+                            Spacer()
+                            
+                            Text("abv \(cocktail.abv)%")
+                        }
+                    }
+                }
+                .font(.bartenderBody)
+                .foregroundStyle(.white)
+                .padding(16)
+            } else {
+                Rectangle()
+                    .fill(.black)
             }
-            .font(.bartenderBody)
-            .foregroundStyle(.white)
-            .padding(16)
             
         }
-        .background(Color.black)
-        .frame(width: 200, height: 300)
+        
+        .frame(width: size.width, height: size.height)
         .clipShape(
-            RoundedRectangle(cornerRadius: 20)
+            RoundedRectangle(cornerRadius: 10)
         )
         .background(
             RoundedRectangle(cornerRadius: 20)
-                .fill(Color.white)
+                .fill(Color.black)
                 .shadow(radius: 20)
         )
         
@@ -88,9 +109,14 @@ struct CocktailCardView: View {
     }
 }
 
-#Preview {
-    let repositoryManager = MockRepositoryManager.shared
-    let cocktail = repositoryManager.mockCocktail
+enum CardStyle {
+    case normal, main
+}
 
-    return CocktailCardView(repositoryManager: repositoryManager, cocktail: cocktail)
+#Preview {
+    let repositoryManager = RepositoryManager.shared
+    repositoryManager.loadCachedData()
+    let cocktail = repositoryManager.cocktails.first!
+
+    return CocktailCardView(cocktail: cocktail)
 }

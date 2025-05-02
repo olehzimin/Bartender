@@ -1,5 +1,5 @@
 //
-//  FontExtension.swift
+//  Font-extension.swift
 //  Bartender
 //
 //  Created by Oleh Zimin on 01.05.2025.

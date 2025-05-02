@@ -32,6 +32,4 @@ extension Cocktail: Hashable {
     static func == (lhs: Cocktail, rhs: Cocktail) -> Bool {
         lhs.id == rhs.id
     }
-    
-    
 }
