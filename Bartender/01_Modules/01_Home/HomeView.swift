@@ -16,8 +16,14 @@ struct HomeView: View {
                 VStack(alignment: .leading, spacing: 24) {
                     Text("Trending")
                         .font(.bartenderLargeTitle)
-                    
-                    CocktailCardView(cocktail: viewModel.firstPopular, style: .main)
+                    VStack(spacing: 4) {
+                        CocktailCardView(cocktail: viewModel.firstPopular, style: .main)
+                            .navigationDestination(for: Cocktail.self) { cocktail in
+                                DetailsView(cocktail: cocktail)
+                            }
+                        
+                        CocktailTagsView(cocktail: viewModel.firstPopular)
+                    }
                     
                     ScrollView(.horizontal, showsIndicators: false) {
                         LazyHStack(spacing: 8) {
@@ -63,11 +69,13 @@ struct HomeView: View {
                     viewModel.eraseData()
                 }
             }
+            .padding(.horizontal, 16)
             .onAppear {
                 viewModel.loadData()
             }
-            .padding(.horizontal, 16)
+            
         }
+        
     }
 }
 

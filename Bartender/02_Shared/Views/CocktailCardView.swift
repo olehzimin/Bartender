@@ -41,72 +41,73 @@ struct CocktailCardView: View {
     )
     
     var body: some View {
-        ZStack(alignment: .bottom) {
-            if let cocktail {
-                Group {
-                    if let image {
-                        Image(uiImage: image)
-                            .resizable()
-                            .scaledToFill()
-                            .offset(offset)
-                    } else {
-                        ProgressView()
-                    }
-                }
-                .frame(height: size.height)
-                .task {
-                    image = await repositoryManager.image(for: cocktail)
-                }
-                
-                Rectangle()
-                    .fill(footerBackground)
-                    .frame(height: 100)
-                
-                VStack(alignment: .trailing) {
-                    Image(systemName: "heart.fill")
-                        .font(.title3)
-                    
-                    
-                    Spacer()
-                    
-                    VStack(alignment: .leading, spacing: 16) {
-                        Text(cocktail.name)
-                            .font(.bartenderTitle)
-                        
-                        
-                        HStack {
-                            Image(systemName: "heart")
-                            Text(cocktail.likes.formatted())
-                                .foregroundStyle(.gray)
-                            
-                            Spacer()
-                            
-                            Text("abv \(cocktail.abv)%")
+        NavigationLink(value: cocktail) {
+            ZStack(alignment: .bottom) {
+                if let cocktail {
+                    Group {
+                        if let image {
+                            Image(uiImage: image)
+                                .resizable()
+                                .scaledToFill()
+                                .offset(offset)
+                        } else {
+                            ProgressView()
                         }
                     }
+                    .frame(height: size.height)
+                    .task {
+                        image = await repositoryManager.image(for: cocktail)
+                    }
+                    
+                    Rectangle()
+                        .fill(footerBackground)
+                        .frame(height: 100)
+                    
+                    VStack(alignment: .trailing) {
+                        Image(systemName: "heart.fill")
+                            .font(.title3)
+                        
+                        
+                        Spacer()
+                        
+                        VStack(alignment: .leading, spacing: 16) {
+                            Text(cocktail.name)
+                                .font(.bartenderTitle)
+                            
+                            
+                            HStack {
+                                Image(systemName: "heart")
+                                Text(cocktail.likes.formatted())
+                                    .foregroundStyle(.gray)
+                                
+                                Spacer()
+                                
+                                Text("abv \(cocktail.abv)%")
+                            }
+                        }
+                    }
+                    .font(.bartenderBody)
+                    .foregroundStyle(.white)
+                    .padding(16)
+                } else {
+                    Rectangle()
+                        .fill(.black)
                 }
-                .font(.bartenderBody)
-                .foregroundStyle(.white)
-                .padding(16)
-            } else {
-                Rectangle()
-                    .fill(.black)
+                
             }
-            
+            .frame(height: size.height)
+            .frame(maxWidth: size.width)
+            .background(
+                Rectangle()
+                    .fill(Color.black)
+                    .shadow(radius: 20)
+            )
+            .clipShape(
+                RoundedRectangle(cornerRadius: 20)
+            )
         }
-        
-        .frame(width: size.width, height: size.height)
-        .clipShape(
-            RoundedRectangle(cornerRadius: 10)
-        )
-        .background(
-            RoundedRectangle(cornerRadius: 20)
-                .fill(Color.black)
-                .shadow(radius: 20)
-        )
-        
-        
     }
+        
 }
 
 enum CardStyle {

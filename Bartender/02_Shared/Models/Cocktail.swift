@@ -20,6 +20,7 @@ struct Cocktail: Identifiable, Codable {
     let preparation: String
     let imageURL: String
     let likes: Int
+    let description: String
     
     struct Ingredient: Codable, Hashable {
         let name: String
@@ -30,6 +31,6 @@ struct Cocktail: Identifiable, Codable {
 
 extension Cocktail: Hashable {
     static func == (lhs: Cocktail, rhs: Cocktail) -> Bool {
-        lhs.id == rhs.id
+        lhs.name == rhs.name
     }
 }

@@ -28,7 +28,8 @@
     "garnish": "Lemon twist",
     "preparation": "Shake and strain into a chilled cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-vesper-6695cdd43284b.webp",
-    "likes": 460
+    "likes": 460,
+    "description": "Bright and herbal with a backbone of botanicals, this cocktail surprises with a depth not expected at first glance. It's a true testament to modern creative bartending."
   },
   {
     "name": "Negroni",
@@ -60,7 +61,8 @@
     "garnish": "Half an orange slice",
     "preparation": "Build into old-fashioned glass filled with ice. Stir gently.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-negroni-6694911cc3b65.webp",
-    "likes": 731
+    "likes": 731,
+    "description": "Created in Italy in the early 20th century, the Negroni blends equal parts gin, Campari, and vermouth. It's celebrated for its bitter complexity and is often associated with sophisticated aperitif culture."
   },
   {
     "name": "Old Fashioned",
@@ -85,7 +87,8 @@
     "garnish": "Orange slice and cherry",
     "preparation": "Place sugar cube in old-fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolve. Fill the glass with ice cubes and add whisky.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-old-fashioned-6694911fce360.webp",
-    "likes": 868
+    "likes": 868,
+    "description": "Dating back to the 19th century, the Old Fashioned is a quintessential whiskey cocktail. Its simple blend of spirit, bitters, and sugar has earned it timeless popularity among purists."
   },
   {
     "name": "Tuxedo",
@@ -115,7 +118,8 @@
     "garnish": "Cherry and lemon twist",
     "preparation": "Stir all ingredients with ice and strain into cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-tuxedo-6694912fd3b8f.webp",
-    "likes": 1082
+    "likes": 1082,
+    "description": "A modern gem, the Tuxedo is gaining fame for its balanced structure and flavorful profile."
   },
   {
     "name": "Mojito",
@@ -146,7 +150,8 @@
     "garnish": "Mint leaves and lemon slice",
     "preparation": "Muddle mint sprigs with sugar and lime juice. Add splash of soda water and fill glass with cracked ice. Pour rum and top with soda water. Serve with straw.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-mojito-6695cdc755626.webp",
-    "likes": 705
+    "likes": 705,
+    "description": "Originating in Cuba, the Mojito combines rum, mint, lime, and sugar for a refreshing tropical experience. It's one of the most beloved summer cocktails worldwide."
   },
   {
     "name": "Horse's Neck",
@@ -174,7 +179,8 @@
     "garnish": "Lemon twist",
     "preparation": "Build into highball glass with ice cubes. Stir gently. If required, add dashes of Angostura bitters.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-horses-neck-6695cdba5fadc.webp",
-    "likes": 954
+    "likes": 954,
+    "description": "This drink marries disparate influences into something wholly original. It has a cult following among bartenders for its complex structure and expressive character."
   },
   {
     "name": "Planter's Punch",
@@ -218,7 +224,8 @@
     "garnish": "Pineapple slice and a cherry",
     "preparation": "Pour all ingredients, except the bitters, into shaker filled with ice. Shake. Pour into large glass, filled with ice. Add Angostura bitters, on top.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-planters-punch-66949122d41fb.webp",
-    "likes": 418
+    "likes": 418,
+    "description": "An underdog turned signature drink, this cocktail transforms its simple base into something remarkable through clever combinations and bold balance."
   },
   {
     "name": "Sea Breeze",
@@ -250,7 +257,8 @@
     "garnish": "Lime wedge",
     "preparation": "Build all ingredients in a rock glass filled with ice.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-sea-breeze-6695cdce015a8.webp",
-    "likes": 729
+    "likes": 729,
+    "description": "Respected by those in the know, this blend delivers a refreshing burst that appeals to both traditionalists and innovators seeking a new experience."
   },
   {
     "name": "Pisco Sour",
@@ -283,7 +291,8 @@
     "garnish": "",
     "preparation": "Shake and strain into a chilled champagne flute. Dash some Angostura bitters on top.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-pisco-sour-6695cdcaf1122.webp",
-    "likes": 152
+    "likes": 152,
+    "description": "Invented out of inspiration and improvisation, it captures the joy of discovery in every sip. Neither flashy nor plain, just right."
   },
   {
     "name": "Long Island Iced Tea",
@@ -337,7 +346,8 @@
     "garnish": "Lemon twist",
     "preparation": "Add all ingredients into highball glass filled with ice. Stir gently. Serve with straw.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-long-island-iced-tea-6695cdc10c463.webp",
-    "likes": 397
+    "likes": 397,
+    "description": "It caught attention for doing something no other cocktail dared — pairing uncommon ingredients to create a smooth, satisfying experience with an edge."
   },
   {
     "name": "Clover Club",
@@ -371,7 +381,8 @@
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-clover-club-66949108a3e54.webp",
-    "likes": 1250
+    "likes": 1250,
+    "description": "Neither overly sweet nor aggressively sharp, this cocktail earns its keep with a balanced approach and subtle aromatic layers."
   },
   {
     "name": "Angel Face",
@@ -402,7 +413,8 @@
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into a cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-angel-face-669490fe6df67.webp",
-    "likes": 268
+    "likes": 268,
+    "description": "Angel Face is a prohibition-era classic known for its smooth yet potent character. Combining gin, apricot brandy, and Calvados, it delivers a refined blend of fruit and botanical notes."
   },
   {
     "name": "Mimosa",
@@ -429,7 +441,8 @@
     "garnish": "Optional orange twist",
     "preparation": "Pour orange juice into flute and gently pour Champagne. Stir gently. Note: Buck's Fizz is a very similar cocktail but made of two parts champagne to one part orange juice.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-mimosa-6695cdc4463c9.webp",
-    "likes": 1092
+    "likes": 1092,
+    "description": "Once overlooked, now admired, its revival has sparked interest among those who appreciate classic technique and modern flair."
   },
   {
     "name": "Whiskey Sour",
@@ -460,7 +473,8 @@
     "garnish": "Half an orange slice and cherry",
     "preparation": "Dash egg white (Optional: if used shake little harder to foam up the egg white). Pour all ingredients into cocktail shaker filled with ice. Shake. Strain into cocktail glass. If served on the rocks, strain ingredients into old-fashioned glass filled with ice.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-whiskey-sour-66949132e6ae9.webp",
-    "likes": 838
+    "likes": 838,
+    "description": "A celebration of understated ingredients elevated to something extraordinary. Smooth, complex, and confident without needing to boast."
   },
   {
     "name": "Cuba Libre",
@@ -492,7 +506,8 @@
     "garnish": "Lime wedge",
     "preparation": "Build all ingredients in a highball glass filled with ice.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-cuba-libre-6695cdb0a6f80.webp",
-    "likes": 674
+    "likes": 674,
+    "description": "Cuba Libre might not date back centuries, but its growing popularity shows its staying power in bars around the world."
   },
   {
     "name": "Manhattan",
@@ -520,7 +535,8 @@
     "garnish": "Cherry",
     "preparation": "Stir in mixing glass with ice cubes. Strain into chilled cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-manhattan-6694911627de7.webp",
-    "likes": 1243
+    "likes": 1243,
+    "description": "The Manhattan is a classic American cocktail born in New York. With whiskey and vermouth at its core, it's a staple of refined cocktail lounges."
   },
   {
     "name": "Porto Flip",
@@ -552,7 +568,8 @@
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into cocktail glass. Sprinkle with fresh ground nutmeg.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-porto-flip-669491230cea4.webp",
-    "likes": 829
+    "likes": 829,
+    "description": "The Porto Flip stands out for its creative use of Cognac, offering a unique twist in the world of mixology."
   },
   {
     "name": "Gin Fizz",
@@ -589,7 +606,8 @@
     "garnish": "Lemon slice",
     "preparation": "Shake all ingredients with ice cubes, except soda water. Pour into tumbler. Top with soda water.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-gin-fizz-6694910fc2eab.webp",
-    "likes": 885
+    "likes": 885,
+    "description": "With a flavor that dances between the lines of classic and experimental, the Gin Fizz continues to intrigue adventurous drinkers."
   },
   {
     "name": "Espresso Martini",
@@ -619,7 +637,8 @@
     "garnish": "",
     "preparation": "Shake and strain into a chilled cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-espresso-martini-6695d3a172fd3.webp",
-    "likes": 566
+    "likes": 566,
+    "description": "Invented in the 1980s, the Espresso Martini is a modern classic. Its mix of vodka, coffee liqueur, and espresso delivers a smooth, caffeinated punch."
   },
   {
     "name": "Margarita",
@@ -650,7 +669,8 @@
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into cocktail glass rimmed with salt (note:Fruit Margarita - blend selected fruit with the above recipe).",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-margarita-6695cdd7505e0.webp",
-    "likes": 450
+    "likes": 450,
+    "description": "A Mexican icon, the Margarita gained fame in the 20th century and remains a go-to cocktail for tequila lovers. Its tart citrus and smooth tequila balance is legendary."
   },
   {
     "name": "French 75",
@@ -683,7 +703,8 @@
     "garnish": "",
     "preparation": "Shake with ice cubes, except for champagne. Strain into a champagne flute. Top up with champagne. Stir gently.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-french-75-6695cdb175e06.webp",
-    "likes": 507
+    "likes": 507,
+    "description": "The French 75 is a standout creation that mixes heritage with innovation, centered around its leading ingredient: Gin."
   },
   {
     "name": "Jungle Bird",
@@ -719,7 +740,8 @@
     "garnish": "Pineapple wedge",
     "preparation": "Pour all ingredients into a shaker with ice and shake. Strain into a rocks glass filled with ice.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-jungle-bird-6695d3ab45a87.webp",
-    "likes": 87
+    "likes": 87,
+    "description": "Unlike many contemporaries, the Jungle Bird enjoys a growing reputation for creativity and a taste that lingers in memory."
   },
   {
     "name": "Pina Colada",
@@ -750,7 +772,8 @@
     "garnish": "Pineapple slice and a cherry",
     "preparation": "Blend all the ingredients with ice in a electric blender, pour into a large goblet or Hurricane glass and serve with straws.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-pina-colada-6695cdcabbf00.webp",
-    "likes": 749
+    "likes": 749,
+    "description": "The Pina Colada is a tropical escape in a glass, blending the creamy richness of coconut milk with the brightness of pineapple and the warmth of rum. Born in Puerto Rico, it’s a symbol of island leisure and timeless beachside indulgence."
   },
   {
     "name": "Aviation",
@@ -781,7 +804,8 @@
     "garnish": "",
     "preparation": "Shake and strain into a chilled cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-aviation-66949102296a4.webp",
-    "likes": 86
+    "likes": 86,
+    "description": "The Aviation dates back to the early 1900s, created by Hugo Ensslin in New York. With gin, maraschino liqueur, and lemon juice, it delivers a floral, slightly tart profile that’s both vintage in origin and uniquely enchanting."
   },
   {
     "name": "Bellini",
@@ -808,7 +832,8 @@
     "garnish": "",
     "preparation": "Pour peach puree into chilled glass and add sparkling wine. Stir gently. Variations: Puccini (fresh mandarin juice), Rossini (fresh strawberry puree), Tintoretto (fresh pomegranate juice)",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-bellini-6695cda4217da.webp",
-    "likes": 820
+    "likes": 820,
+    "description": "The Bellini was created in 1940s Venice by Giuseppe Cipriani at Harry’s Bar. A mix of peach purée and Prosecco, it’s light, fruity, and effervescent — capturing the charm of Italian summers and timeless celebratory elegance."
   },
   {
     "name": "Grasshopper",
@@ -839,7 +864,8 @@
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into chilled cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-grasshopper-6695cdb737498.webp",
-    "likes": 681
+    "likes": 681,
+    "description": "The Grasshopper is a sweet, creamy classic that gained popularity in mid-20th century America. Made with green crème de menthe, white crème de cacao, and cream, it’s a minty dessert cocktail known for its vivid color and indulgent charm."
   },
   {
     "name": "Tequila Sunrise",
@@ -871,7 +897,8 @@
     "garnish": "Orange slice and a cherry",
     "preparation": "Build tequila and orange juice into highball with ice cubes. Add a splash of grenadine to create sunrise effect. Do not stir.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-tequila-sunrise-6695cdd3da10a.webp",
-    "likes": 474
+    "likes": 474,
+    "description": "The Tequila Sunrise gained fame in 1970s California rock culture, though its origins trace back earlier. With tequila, orange juice, and grenadine, it’s visually striking and effortlessly smooth — a sweet, citrusy favorite with vibrant, sunset-like layers."
   },
   {
     "name": "Daiquiri",
@@ -902,7 +929,8 @@
     "garnish": "",
     "preparation": "Shake and strain into a cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-daiquiri-6694910c5866e.webp",
-    "likes": 614
+    "likes": 614,
+    "description": "A favorite of Ernest Hemingway, the Daiquiri hails from Cuba and exemplifies simplicity with rum, lime, and sugar. It's crisp, bright, and endlessly adaptable."
   },
   {
     "name": "Rusty Nail",
@@ -928,7 +956,8 @@
     "garnish": "Lemon twist",
     "preparation": "Build into old-fashioned glass filled with ice. Stir gently.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-rusty-nail-66949129acfd1.webp",
-    "likes": 1086
+    "likes": 1086,
+    "description": "Rusty Nail explores a lesser-known path in the cocktail world. Built on Whiskey, it stands apart with a dry twist. Far from traditional, it reflects the evolving taste of modern mixology, offering something unexpected in a unforgettables favorite."
   },
   {
     "name": "Stinger",
@@ -954,7 +983,8 @@
     "garnish": "",
     "preparation": "Stir in mixing glass with ice cubes. Strain into a cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-stinger-6694912ce0b8d.webp",
-    "likes": 102
+    "likes": 102,
+    "description": "Originally experimental, it found its way onto classic menus with its layered taste and unexpected harmony. A cocktail that reflects both curiosity and craftsmanship."
   },
   {
     "name": "Spritz",
@@ -982,7 +1012,8 @@
     "garnish": "Half an orange slice",
     "preparation": "Build into an old-fashioned glass filled with ice. Top with a splash of soda water.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-spritz-6695d3c0f113f.webp",
-    "likes": 818
+    "likes": 818,
+    "description": "The Spritz has evolved beyond its origins, offering a modern palate something distinctive, nuanced, and thoroughly enjoyable."
   },
   {
     "name": "Bramble",
@@ -1018,7 +1049,8 @@
     "garnish": "Lemon slice and two blackberries",
     "preparation": "Build over crushed ice, in a rock glass. Stir, then pour the blackberry liqueur over the top of the drink in a circular fashion.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-bramble-6695d398036e1.webp",
-    "likes": 900
+    "likes": 900,
+    "description": "Long overshadowed by older drinks, the Bramble is finally earning respect for its bold twist on familiar elements."
   },
   {
     "name": "Alexander",
@@ -1049,7 +1081,8 @@
     "garnish": "",
     "preparation": "Shake and strain into a chilled cocktail glass. Sprinkle with fresh ground nutmeg.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-alexander-669491364f7f2.webp",
-    "likes": 215
+    "likes": 215,
+    "description": "Part mystery, part mastery — the Alexander uses Cognac as its muse in a daring expression of modern mixology."
   },
   {
     "name": "Lemon Drop Martini",
@@ -1081,7 +1114,8 @@
     "garnish": "Lemon slice",
     "preparation": "Shake and strain into a chilled cocktail glass rimmed with sugar.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-lemon-drop-martini-6695cdbe3eed7.webp",
-    "likes": 1161
+    "likes": 1161,
+    "description": "The Lemon Drop Martini is a zesty twist on classic cocktail culture, combining vodka, lemon juice, and orange liqueur for a bright, citrus-forward experience. Popularized in the 1970s, it offers a perfect balance of tartness and smooth sweetness."
   },
   {
     "name": "French Martini",
@@ -1113,7 +1147,8 @@
     "garnish": "",
     "preparation": "Stir in mixing glass with ice cubes. Strain into chilled cocktail glass. Squeeze oil from lemon peel onto the drink.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-french-martini-6695d3a4acf5f.webp",
-    "likes": 823
+    "likes": 823,
+    "description": "The French Martini emerged in the 1980s as part of the cocktail renaissance. Blending vodka, raspberry liqueur, and pineapple juice, it offers a silky, fruity profile with a hint of tartness — elegant, modern, and unapologetically smooth."
   },
   {
     "name": "Black Russian",
@@ -1140,7 +1175,8 @@
     "garnish": "",
     "preparation": "Build into old fashioned glass filled with ice cubes. Stir gently. Note: for White Russian, float fresh cream on the top and stir gently.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-black-russian-6695cda4183dc.webp",
-    "likes": 508
+    "likes": 508,
+    "description": "The Black Russian was created in the late 1940s at the Hotel Metropole in Brussels. Combining vodka and coffee liqueur, it delivers a dark, smooth profile with minimal ingredients — a bold, no-frills drink with enduring appeal."
   },
   {
     "name": "Bloody Mary",
@@ -1177,7 +1213,8 @@
     "garnish": "Celery and optionally lemon wedge",
     "preparation": "Stir gently, pour all ingredients into highball glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-bloody-mary-6695cda72fe0f.webp",
-    "likes": 68
+    "likes": 68,
+    "description": "The Bloody Mary is a savory icon, blending vodka, tomato juice, and spices. Invented in the 1920s, it’s long been a brunch staple — praised for its bold flavor, hangover-curing reputation, and endless garnish creativity."
   },
   {
     "name": "Mai-tai",
@@ -1218,7 +1255,8 @@
     "garnish": "Pineapple spear, mint leaves and lime wedge",
     "preparation": "Shake and strain into highball glass. Serve with straw.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-mai-tai-6695cdc169ea3.webp",
-    "likes": 1156
+    "likes": 1156,
+    "description": "The Mai-Tai was born in 1940s California tiki culture, famously crafted by Trader Vic. With rum, lime, and orange liqueur, it’s a tropical escape with rich, citrusy depth — a vibrant icon of mid-century Polynesian-inspired cocktail lore."
   },
   {
     "name": "Sex on the Beach",
@@ -1255,7 +1293,8 @@
     "garnish": "Orange slice",
     "preparation": "Build all ingredients in a highball glass filled with ice.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-sex-on-the-beach-6695cdd0aecf3.webp",
-    "likes": 1093
+    "likes": 1093,
+    "description": "Seldom predictable, the Sex on the Beach rewards those who stray from the ordinary with a surprisingly harmonious blend."
   },
   {
     "name": "Monkey Gland",
@@ -1285,7 +1324,8 @@
     "garnish": "",
     "preparation": "Shake and strain into a chilled cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-monkey-gland-6694911cbf5a2.webp",
-    "likes": 1118
+    "likes": 1118,
+    "description": "Monkey Gland brings together contrasting ingredients into a cohesive blend, representing modern cocktail craftsmanship."
   },
   {
     "name": "Sidecar",
@@ -1316,7 +1356,8 @@
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-sidecar-6694912cb8aa9.webp",
-    "likes": 1222
+    "likes": 1222,
+    "description": "Inventive yet approachable, the Sidecar draws in those looking for something a little different in their glass."
   },
   {
     "name": "Irish Coffee",
@@ -1351,7 +1392,8 @@
     "garnish": "",
     "preparation": "Warm the Irish whiskey over a burner. Pour into the glass (for hot drink) hot coffee, and add a teaspoon of sugar. Float Cream on top.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-irish-coffee-copy-6695cdbb430cd.webp",
-    "likes": 1079
+    "likes": 1079,
+    "description": "An underdog turned signature drink, this cocktail transforms its simple base into something remarkable through clever combinations and bold balance."
   },
   {
     "name": "Sazerac",
@@ -1380,7 +1422,8 @@
     "garnish": "Lemon twist",
     "preparation": "Rinse a chilled old-fashioned glass with the absinthe, add crushed ice and set it aside. Stir the remaining ingredients over ice and set it aside. Discard the ice and any excess absinthe from the prepared glass, and strain the drink into the glass. Note: The original recipe changed after the American Civil War, whiskey substituted cognac as it became hard to obtain.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-sazerac-66949129b50d1.webp",
-    "likes": 275
+    "likes": 275,
+    "description": "What makes the Sazerac remarkable is not just what's in it, but the way those elements reshape expectations."
   },
   {
     "name": "Americano",
@@ -1409,7 +1452,8 @@
     "garnish": "Half an orange slice",
     "preparation": "Build into old fashioned glass filled with ice cubes. Add a splash of soda water.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-americano-669490fe3cb42.webp",
-    "likes": 802
+    "likes": 802,
+    "description": "The Americano is a light, bittersweet Italian classic that predates the Negroni. Featuring Campari and sweet vermouth with a splash of soda, it was a favorite among American tourists in Italy — hence the name. Effortlessly refreshing and refined."
   },
   {
     "name": "Singapore Sling",
@@ -1463,7 +1507,8 @@
     "garnish": "Pineapple slice and a cherry",
     "preparation": "Shake with ice cubes. Strain into highball glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-singapore-sling-6695cdd136426.webp",
-    "likes": 237
+    "likes": 237,
+    "description": "Created at the Raffles Hotel in Singapore around 1915, the Singapore Sling is a vibrant medley of gin, cherry liqueur, citrus, and soda. Originally designed for women, it became a tropical staple known for its complexity and bold color."
   },
   {
     "name": "French Connection",
@@ -1490,7 +1535,8 @@
     "garnish": "",
     "preparation": "Build into old fashioned glass filled with ice cubes. Stir gently.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-french-connection-6695cdb3cc15f.webp",
-    "likes": 997
+    "likes": 997,
+    "description": "Named after the 1971 crime thriller, the French Connection combines cognac and amaretto for a smooth, subtly sweet drink with a warming finish. It’s a simple yet indulgent after-dinner cocktail that balances refinement with rich, mellow flavors."
   },
   {
     "name": "Moscow Mule",
@@ -1523,7 +1569,8 @@
     "garnish": "Lime slice",
     "preparation": "Combine the vodka and ginger beer. Add lime juice.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-moscow-mule-6695cdc7d8cb2.webp",
-    "likes": 545
+    "likes": 545,
+    "description": "The Moscow Mule sparked the vodka craze in 1940s America. Served in its signature copper mug, it mixes vodka, ginger beer, and lime juice — a zesty, effervescent drink with a kick that helped popularize vodka cocktails worldwide."
   },
   {
     "name": "John Collins",
@@ -1560,7 +1607,8 @@
     "garnish": "Lemon slice and a cherry",
     "preparation": "Build into highball glass filled with ice. Stir gently. Add a dash of Angostura bitters. (Note: Use Old Tom Gin for Tom Collins)",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-john-collins-669491130ef87.webp",
-    "likes": 575
+    "likes": 575,
+    "description": "The John Collins is a refreshing gin-based highball dating back to 19th-century London. Made with lemon juice, sugar, and soda water, it’s a crisp, bubbly drink that evolved from the Tom Collins and remains a warm-weather favorite."
   },
   {
     "name": "Kir",
@@ -1587,7 +1635,8 @@
     "garnish": "",
     "preparation": "Pour Creme de Cassis into glass, top up with white wine. For Kir Royal: Use champagne instead of white wine.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-kir-6695cdbdbb2e1.webp",
-    "likes": 1195
+    "likes": 1195,
+    "description": "A fresh take in the world of cocktails, the Kir uses Dry White Wine to create a flavor journey like no other."
   },
   {
     "name": "Mint Julep",
@@ -1613,7 +1662,8 @@
     "garnish": "Mint sprig",
     "preparation": "In a highball glass gently muddle the mint, sugar and water. Fill the glass with cracked ice, add whiskey and stir well until the glass is frost.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-mint-julep-6695cdc4aa398.webp",
-    "likes": 621
+    "likes": 621,
+    "description": "While not as old as some classics, the Mint Julep has carved a niche for itself thanks to its bold character and memorable taste."
   },
   {
     "name": "Tommy's Margarita",
@@ -1641,7 +1691,8 @@
     "garnish": "",
     "preparation": "Shake and strain into a chilled cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-tommys-margarita-6695d3c7171ef.webp",
-    "likes": 840
+    "likes": 840,
+    "description": "The Tommy's Margarita is a standout creation that mixes heritage with innovation, centered around its leading ingredient: Tequila."
   },
   {
     "name": "Paradise",
@@ -1673,7 +1724,8 @@
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into chilled cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-paradise-6694911fdbd4b.webp",
-    "likes": 483
+    "likes": 483,
+    "description": "Seldom predictable, the Paradise rewards those who stray from the ordinary with a surprisingly harmonious blend."
   },
   {
     "name": "Champagne Cocktail",
@@ -1703,7 +1755,8 @@
     "garnish": "Orange slice and a cherry",
     "preparation": "Add dash of Angostura bitter onto sugar cube and drop it into champagne flute. Add cognac followed by pouring gently chilled champagne.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-champagne-cocktail-6695cdaa71bb2.webp",
-    "likes": 1032
+    "likes": 1032,
+    "description": "Respected by those in the know, this blend delivers a refreshing burst that appeals to both traditionalists and innovators seeking a new experience."
   },
   {
     "name": "Mary Pickford",
@@ -1739,7 +1792,8 @@
     "garnish": "",
     "preparation": "Shake and strain into a chilled large cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-mary-pickford-6694911933ea7.webp",
-    "likes": 846
+    "likes": 846,
+    "description": "Named after the silent film star, the Mary Pickford blends white rum, pineapple juice, cherry liqueur, and grenadine. It emerged during Prohibition in Havana and became a glamorous icon of its era — fruity, vibrant, and undeniably elegant."
   },
   {
     "name": "Hemingway Special",
@@ -1776,7 +1830,8 @@
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into a double cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-hemingway-special-6695cdb814e5a.webp",
-    "likes": 894
+    "likes": 894,
+    "description": "Inspired by Ernest Hemingway’s fondness for tart, sugar-free drinks, the Hemingway Special blends white rum, grapefruit juice, lime, and cherry liqueur. It’s a dry, citrusy variation of the Daiquiri — crisp, refreshing, and literary in origin."
   },
   {
     "name": "Dark 'n' Stormy",
@@ -1802,7 +1857,8 @@
     "garnish": "Lime wedge",
     "preparation": "Build into highball glass filled with ice. Add rum first and top it with ginger beer.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-dark-n-stormy-6695d39e2bd94.webp",
-    "likes": 636
+    "likes": 636,
+    "description": "The Dark 'n' Stormy hails from Bermuda and pairs dark rum with spicy ginger beer for a bold, invigorating drink. Its name reflects its brooding color and punchy flavor — a favorite among sailors and cocktail lovers alike."
   },
   {
     "name": "Ramos Fizz",
@@ -1849,7 +1905,8 @@
     "garnish": "",
     "preparation": "Pour all ingredients (except soda) in a mixing glass, dry shake (no ice) for two minutes, add ice and hard shake for another minute. Strain into a highball glass without ice, top with soda.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-ramos-fizz-669491260ca6c.webp",
-    "likes": 340
+    "likes": 340,
+    "description": "Created in New Orleans in the 1880s by Henry C. Ramos, the Ramos Fizz is a frothy, creamy blend of gin, citrus, egg white, cream, and orange flower water. It’s a luxurious, labor-intensive drink with a cult following."
   },
   {
     "name": "Russian Spring Punch",
@@ -1886,7 +1943,8 @@
     "garnish": "Lemon slice and a blackberry",
     "preparation": "Shake the ingredients and pour into highball glass. Top with Sparkling wine.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-new-era-russian-spring-punch-6695d3ba314f1.webp",
-    "likes": 1016
+    "likes": 1016,
+    "description": "Created by London bartender Dick Bradsell in the 1980s, the Russian Spring Punch blends vodka, lemon juice, crème de cassis, and sparkling wine. Fruity and fizzy, it’s a festive, crowd-pleasing drink perfect for parties and vibrant evenings."
   },
   {
     "name": "Cosmopolitan",
@@ -1923,7 +1981,8 @@
     "garnish": "Lime slice",
     "preparation": "Shake with ice cubes. Strain into a large cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-cosmopolitan-6695cdae389dc.webp",
-    "likes": 166
+    "likes": 166,
+    "description": "Drawn from diverse inspirations, the Cosmopolitan turns Vodka into a centerpiece of creative flavor architecture."
   },
   {
     "name": "Dry Martini",
@@ -1949,7 +2008,8 @@
     "garnish": "",
     "preparation": "Stir in mixing glass with ice cubes. Strain into chilled martini glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-dry-martini-6694910fb500c.webp",
-    "likes": 384
+    "likes": 384,
+    "description": "The Dry Martini is a symbol of elegance and minimalism. Immortalized in literature and film, it’s long been a favorite of secret agents and stylish drinkers alike."
   },
   {
     "name": "Between the Sheets",
@@ -1986,7 +2046,8 @@
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into chilled cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-between-the-sheets-669491023d7af.webp",
-    "likes": 303
+    "likes": 303,
+    "description": "A modern gem, the Between the Sheets is gaining fame for its balanced structure and flavorful profile."
   },
   {
     "name": "Casino",
@@ -2023,7 +2084,8 @@
     "garnish": "Lemon twist and a cherry",
     "preparation": "Shake with ice cubes. Strain into chilled cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-casino-6694910882cd6.webp",
-    "likes": 403
+    "likes": 403,
+    "description": "This drink marries disparate influences into something wholly original. It has a cult following among bartenders for its complex structure and expressive character."
   },
   {
     "name": "Caipirinha",
@@ -2047,7 +2109,8 @@
     "garnish": "",
     "preparation": "Place lime and sugar in old fashion glass and muddle. Fill glass with ice and Cachaca (note: Caipiroska - use Vodka instead of Cachaca).",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-caipirinha-6695cda74b13a.webp",
-    "likes": 579
+    "likes": 579,
+    "description": "The Caipirinha has evolved beyond its origins, offering a modern palate something distinctive, nuanced, and thoroughly enjoyable."
   },
   {
     "name": "White Lady",
@@ -2079,7 +2142,8 @@
     "garnish": "",
     "preparation": "Shake with ice cubes. Strain into large cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-white-lady-6694913318105.webp",
-    "likes": 626
+    "likes": 626,
+    "description": "Respected by those in the know, this blend delivers a refreshing burst that appeals to both traditionalists and innovators seeking a new experience."
   },
   {
     "name": "Cardinale",
@@ -2110,7 +2174,8 @@
     "garnish": "Lemon zest",
     "preparation": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-cardinale-6695cdaa5f0d8.webp",
-    "likes": 585
+    "likes": 585,
+    "description": "The Cardinale is a crisp and bitter aperitif born in postwar Rome. Combining gin, dry vermouth, and Campari, it offers a sharper, drier take on the Negroni. Elegant and minimal, it appeals to lovers of bold, aromatic flavors."
   },
   {
     "name": "Martinez",
@@ -2140,7 +2205,8 @@
     "garnish": "Lemon zest",
     "preparation": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-martinez-6694911927849.webp",
-    "likes": 202
+    "likes": 202,
+    "description": "The Martinez is often regarded as the predecessor to the Martini. Dating back to the mid-1800s, it pairs gin with sweet vermouth, maraschino liqueur, and bitters — offering a rich, slightly sweet flavor with a touch of old-world sophistication."
   },
   {
     "name": "Garibaldi",
@@ -2167,7 +2233,8 @@
     "garnish": "Orange wedge",
     "preparation": "Build all ingredients in a highball glass filled with ice.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-garibaldi-6695cdb4cbf81.webp",
-    "likes": 1118
+    "likes": 1118,
+    "description": "Named after the Italian revolutionary Giuseppe Garibaldi, this vibrant cocktail blends Campari and fresh orange juice. Its striking red-orange hue and bittersweet flavor reflect the union of northern and southern Italy — simple, patriotic, and refreshingly bold."
   },
   {
     "name": "Rabo de Galo",
@@ -2201,7 +2268,8 @@
     "garnish": "Orange twist",
     "preparation": "Combine all the ingredients into a rocks glass, add ice and stir briefly.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-contemporary-classics-rabo-de-galo-6695cdcdb2df1.webp",
-    "likes": 718
+    "likes": 718,
+    "description": "Once overlooked, now admired, its revival has sparked interest among those who appreciate classic technique and modern flair."
   },
   {
     "name": "Boulevardier",
@@ -2233,7 +2301,8 @@
     "garnish": "Orange or lemon zest",
     "preparation": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-boulevardier-6694910552acd.webp",
-    "likes": 359
+    "likes": 359,
+    "description": "The Boulevardier is a whiskey-based cousin of the Negroni, created in the 1920s by American writer Erskine Gwynne in Paris. With bourbon or rye, sweet vermouth, and Campari, it offers a rich, bittersweet profile with depth and elegance."
   },
   {
     "name": "Hanky Panky",
@@ -2265,7 +2334,8 @@
     "garnish": "Orange zest",
     "preparation": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into chilled cocktail glass.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-hanky-panky-66949112edbf5.webp",
-    "likes": 269
+    "likes": 269,
+    "description": "Bright and herbal with a backbone of botanicals, this cocktail surprises with a depth not expected at first glance. It's a true testament to modern creative bartending."
   },
   {
     "name": "Remember the Maine",
@@ -2302,6 +2372,7 @@
     "garnish": "Lemon zest",
     "preparation": "Pour the absinthe into a coupe glass and swirl to completely coat the inside. Discard the absinthe and set the glass aside. Add the other ingredients to a mixing glass and fill it 3/4 full with ice. Stir until chilled, then strain into the glass rinsed with the absinthe.",
     "imageURL": "https://iba-world.com/wp-content/uploads/2024/07/iba-cocktail-the-unforgettables-remember-the-main-6694912622959.webp",
-    "likes": 524
+    "likes": 524,
+    "description": "Originally experimental, it found its way onto classic menus with its layered taste and unexpected harmony. A cocktail that reflects both curiosity and craftsmanship."
   }
 ]

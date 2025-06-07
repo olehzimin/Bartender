@@ -8,7 +8,13 @@
 import SwiftUI
 
 struct StartupView: View {
+    enum TabCategory {
+        case home, myBar, bartender, add, settings
+    }
+    
     @State private var viewModel = StartupViewModel()
+    @State private var selectedTab: TabCategory = .home
+    @State private var navigationPath = NavigationPath()
     
     var body: some View {
         if viewModel.isShowingSplash {
@@ -17,37 +23,54 @@ struct StartupView: View {
                     await viewModel.fetchData()
                 }
         } else {
-            TabView {
-                Tab("Home", systemImage: "house") {
-                    NavigationStack {
-                        HomeView()
-                    }
+            TabView(selection: $selectedTab) {
+                NavigationStack(path: $navigationPath) {
+                    HomeView()
                 }
-                
-                Tab("My Bar", systemImage: "heart") {
-                    NavigationStack {
-                        MyBarView()
-                    }
+                .tabItem {
+                    Label("Home", systemImage: "house")
                 }
+                .tag(TabCategory.home)
                 
-                Tab("Bartender", systemImage: "flask") {
-                    NavigationStack {
-                        BartenderView()
-                    }
+                NavigationStack {
+                    MyBarView()
                 }
-                
-                Tab("Add", systemImage: "plus") {
-                    NavigationStack {
-                        AddEditView()
-                    }
+                .tabItem {
+                    Label("My Bar", systemImage: "heart")
                 }
+                .tag(TabCategory.myBar)
                 
-                Tab("Settings", systemImage: "gear") {
-                    NavigationStack {
-                        SettingsView()
-                    }
+                NavigationStack {
+                    BartenderView()
+                }
+                .tabItem {
+                    Label("Bartender", systemImage: "flask")
+                }
+                .tag(TabCategory.bartender)
+                
+                NavigationStack {
+                    AddEditView()
+                }
+                .tabItem {
+                    Label("Add", systemImage: "plus")
+                }
+                .tag(TabCategory.add)
+                
+                NavigationStack {
+                    SettingsView()
+                }
+                .tabItem {
+                    Label("Settings", systemImage: "gear")
+                }
+                .tag(TabCategory.settings)
+            }
+            .onChange(of: selectedTab) {
+                Task {
+                    try? await Task.sleep(for: .seconds(0.5))
+                    navigationPath = NavigationPath()
                 }
             }
+            
         }
     }
 }

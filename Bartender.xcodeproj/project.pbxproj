@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D3EE8822DADB46400BF65F7 /* SDWebImageWebPCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3EE8812DADB46400BF65F7 /* SDWebImageWebPCoder */; };
+		2D4BEB4F2DCEBCF6006C6974 /* WrappingStack in Frameworks */ = {isa = PBXBuildFile; productRef = 2D4BEB4E2DCEBCF6006C6974 /* WrappingStack */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D3EE8822DADB46400BF65F7 /* SDWebImageWebPCoder in Frameworks */,
+				2D4BEB4F2DCEBCF6006C6974 /* WrappingStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +86,7 @@
 			name = Bartender;
 			packageProductDependencies = (
 				2D3EE8812DADB46400BF65F7 /* SDWebImageWebPCoder */,
+				2D4BEB4E2DCEBCF6006C6974 /* WrappingStack */,
 			);
 			productName = Bartender;
 			productReference = 2D5A0B682DA9C34700F5A5FB /* Bartender.app */;
@@ -115,6 +118,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				2D3EE8802DADB46400BF65F7 /* XCRemoteSwiftPackageReference "SDWebImageWebPCoder" */,
+				2D4BEB4D2DCEBCF6006C6974 /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2D5A0B692DA9C34700F5A5FB /* Products */;
@@ -368,6 +372,14 @@
 				minimumVersion = 0.14.6;
 			};
 		};
+		2D4BEB4D2DCEBCF6006C6974 /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/diniska/swiftui-wrapping-stack";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -375,6 +387,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2D3EE8802DADB46400BF65F7 /* XCRemoteSwiftPackageReference "SDWebImageWebPCoder" */;
 			productName = SDWebImageWebPCoder;
+		};
+		2D4BEB4E2DCEBCF6006C6974 /* WrappingStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D4BEB4D2DCEBCF6006C6974 /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */;
+			productName = WrappingStack;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

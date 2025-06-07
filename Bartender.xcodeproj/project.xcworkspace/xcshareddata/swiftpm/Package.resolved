@@ -1,5 +1,5 @@
 {
-  "originHash" : "98997adf9163f02eae882f42c1a76b1d05f7ec63357bbadf2ff0241cae92373f",
+  "originHash" : "e12654cd41b23fa148d42036f84109934d1e64e8177f85bc6c9cadef671865f8",
   "pins" : [
     {
       "identity" : "libwebp-xcode",
@@ -26,6 +26,15 @@
       "state" : {
         "revision" : "f534cfe830a7807ecc3d0332127a502426cfa067",
         "version" : "0.14.6"
+      }
+    },
+    {
+      "identity" : "swiftui-wrapping-stack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/diniska/swiftui-wrapping-stack",
+      "state" : {
+        "revision" : "1e6b0fffe902cf3ffc102af5e7c0c4767cbc09e0",
+        "version" : "1.1.0"
       }
     }
   ],
